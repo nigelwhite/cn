@@ -30,5 +30,6 @@
 /web/sites/*/private
 
 # Ignore local dev resources
+/.ddev
 /localdev
 

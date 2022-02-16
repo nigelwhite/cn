@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: bafc7d70-c305-4e1b-bc19-570573e462a4
-name: 'Drush Site-Install'
+name: 'Cuckoo''s Nest'
 mail: admin@example.com
-slogan: ''
+slogan: 'Community shop in Marsden'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

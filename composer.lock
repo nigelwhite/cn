@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b2be21247c9c8cfebdc6d05283e9922",
+    "content-hash": "c2b3fed40ca881ebf4ca367700c10f18",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1842,29 +1842,27 @@
         },
         {
             "name": "drupal/gin",
-            "version": "3.0.0-alpha27",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "8.x-3.0-alpha27"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gin-8.x-3.0-alpha27.zip",
-                "reference": "8.x-3.0-alpha27",
-                "shasum": "8a6c0b47313b295dabc781def387f1a0179eb1d8"
+                "reference": "a57798837fc980a4a8687de5cf1230cdcc23b59b"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9"
+                "drupal/core": "^8.9 || ^9 || ^10",
+                "drupal/gin_toolbar": "^1.0@beta"
             },
             "type": "drupal-theme",
             "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-3.0-alpha27",
-                    "datestamp": "1601291419",
+                    "version": "8.x-3.0-alpha37+59-dev",
+                    "datestamp": "1644779597",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -6549,7 +6547,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/gin": 15,
+        "drupal/gin": 20,
         "drupal/gin_toolbar": 10
     },
     "prefer-stable": true,

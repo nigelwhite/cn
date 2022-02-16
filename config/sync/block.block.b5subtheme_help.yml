@@ -1,0 +1,22 @@
+uuid: 41c428da-07a3-43a1-bac5-0f6b4ec63a00
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - b5subtheme
+_core:
+  default_config_hash: LboS2JXy9W-E4MFKQksI6TctZCies42HjNrMo-L0jWE
+id: b5subtheme_help
+theme: b5subtheme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

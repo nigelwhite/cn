@@ -1,18 +1,18 @@
-uuid: a960b8d9-6304-4cc2-8c01-7c362e6ef68e
+uuid: 9082f4c8-eca5-4e59-b74a-de5ef52446c3
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: title
-label: title
+id: node_title
+label: 'node title'
 type: 'canonical_entities:node'
-pattern: '[current-page:title]'
+pattern: '[node:title]'
 selection_criteria:
-  00981d58-6389-4f2b-bc43-66b87e0a93da:
+  ccd19a0d-6d49-43a9-983d-6b58c6995e3c:
     id: node_type
     negate: false
-    uuid: 00981d58-6389-4f2b-bc43-66b87e0a93da
+    uuid: ccd19a0d-6d49-43a9-983d-6b58c6995e3c
     context_mapping:
       node: node
     bundles:

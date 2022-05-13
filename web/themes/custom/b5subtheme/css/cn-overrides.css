@@ -1,1 +1,4 @@
 /* Here we override Bootstrap5-provided classes */
+.bg-dark {
+  background-color: green;
+}

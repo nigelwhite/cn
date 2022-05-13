@@ -1,4 +1,8 @@
 /* Here we override Bootstrap5-provided classes */
-.bg-dark {
-  background-color: green;
+/* We can't override Bootstraps SCSS variables since we are not using SCSS */
+/* We use CSS custom properties (also called CSS variables) to get the same functionality */
+
+:root {
+  --cn-primary: green;
+  --cn-secondary: yellow;
 }

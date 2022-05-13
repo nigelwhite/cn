@@ -2,3 +2,17 @@
 body {
   background-color: aquamarine;
 }
+
+.navbar,
+footer {
+  background-color: var(--cn-primary);
+}
+
+.navbar-brand a.site-title,
+.nav-link {
+  color: var(--cn-secondary);
+}
+
+.navbar-toggler-icon {
+  color: pink;
+}

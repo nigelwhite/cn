@@ -11,7 +11,13 @@
     //   "savePath": "/dist/css"
     // }
   ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.includeItems": [
+    "/web/themes/custom/b5subtheme/scss/style.scss"
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": ["defaults"]
 }

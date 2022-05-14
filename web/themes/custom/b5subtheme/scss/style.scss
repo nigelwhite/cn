@@ -5,11 +5,11 @@
 // @see https://getbootstrap.com/docs/5.1/customize/sass/#variable-defaults.
 @import "variables_bootstrap";
 
-// Include bootstrap.
-@import "../../../../themes/contrib/bootstrap5/scss/style";
-
 // Include cn custom variables
 @import "variables_cn";
 
 // Include our custom styleing
 @import "style_cn";
+
+// Include bootstrap.
+@import "../../../../themes/contrib/bootstrap5/scss/style";

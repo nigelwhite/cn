@@ -8,8 +8,8 @@
 // Include cn custom variables
 @import "variables_cn";
 
-// Include our custom styleing
-@import "style_cn";
-
 // Include bootstrap.
 @import "../../../../themes/contrib/bootstrap5/scss/style";
+
+// Include our custom styleing
+@import "style_cn";

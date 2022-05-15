@@ -1,0 +1,18 @@
+.navbar {
+  padding: 2rem 0;
+}
+
+body {
+  background-color: rgb(167, 252, 223);
+}
+
+.navbar-dark .navbar-brand a.site-title,
+.navbar-dark .navbar-nav .nav-link,
+footer.footer-dark a {
+  color: rgb(243, 217, 70);
+}
+
+.navbar-brand .site-title {
+  text-transform: none;
+  font-size: 2rem;
+}

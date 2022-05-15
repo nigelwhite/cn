@@ -19,5 +19,15 @@
     "/.vscode/**"
   ],
   "liveSassCompile.settings.generateMap": true,
-  "liveSassCompile.settings.autoprefix": ["defaults"]
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+  // Mainly for static files
+  "liveServer.settings.useWebExt": true,
+
+  // This means that you change your real URL (current PHP url)
+  // to another URL (which Live Sever starts).
+  "liveServer.settings.proxy": {
+    "enable": true, //   i. enabled
+    "baseUri": "/", //  ii. workspace
+    "proxyUri": "http://127.0.0.1:49157" // iii. actual address
+  }
 }

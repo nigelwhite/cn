@@ -25,6 +25,7 @@
 
   // This means that you change your real URL (current PHP url)
   // to another URL (which Live Sever starts).
+  // I've inserted the 127... version of the ddev address in proxyUri
   "liveServer.settings.proxy": {
     "enable": true, //   i. enabled
     "baseUri": "/", //  ii. workspace

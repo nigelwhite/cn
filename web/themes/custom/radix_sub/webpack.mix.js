@@ -7,8 +7,8 @@
  | for your application. See https://github.com/JeffreyWay/laravel-mix.
  |
  */
-const proxy = 'http://drupal.local';
-const mix = require('laravel-mix');
+const proxy = "http://cn.ddev.site:81";
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -19,10 +19,10 @@ mix
   .webpackConfig({
     // Use the jQuery shipped with Drupal to avoid conflicts.
     externals: {
-      jquery: 'jQuery'
+      jquery: "jQuery"
     }
   })
-  .setPublicPath('assets')
+  .setPublicPath("assets")
   .disableNotifications()
   .options({
     processCssUrls: false
@@ -35,8 +35,8 @@ mix
  */
 mix.browserSync({
   proxy: proxy,
-  files: ['assets/js/**/*.js', 'assets/css/**/*.css'],
-  stream: true,
+  files: ["assets/js/**/*.js", "assets/css/**/*.css"],
+  stream: true
 });
 
 /*
@@ -44,11 +44,11 @@ mix.browserSync({
  | SASS
  |--------------------------------------------------------------------------
  */
-mix.sass('src/sass/radix_sub.style.scss', 'css');
+mix.sass("src/sass/radix_sub.style.scss", "css");
 
 /*
  |--------------------------------------------------------------------------
  | JS
  |--------------------------------------------------------------------------
  */
-mix.js('src/js/radix_sub.script.js', 'js');
+mix.js("src/js/radix_sub.script.js", "js");

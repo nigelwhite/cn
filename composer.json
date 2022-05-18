@@ -30,7 +30,6 @@
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/pathauto": "^1.10",
-        "drupal/radix": "^4.11",
         "drupal/webform": "^6.1",
         "drush/drush": "^11.0"
     },

@@ -30,5 +30,6 @@
     "enable": true, //   i. enabled
     "baseUri": "/", //  ii. workspace
     "proxyUri": "http://127.0.0.1:49157" // iii. actual address
-  }
+  },
+  "git.ignoreLimitWarning": true
 }

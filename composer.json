@@ -25,9 +25,11 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/entity_print": "^2.5",
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/pathauto": "^1.10",
+        "drupal/webform": "^6.1",
         "drush/drush": "^11.0"
     },
     "conflict": {

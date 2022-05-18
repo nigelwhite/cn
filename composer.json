@@ -22,6 +22,7 @@
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/bootstrap_sass": "^5.0",
         "drupal/coffee": "^1.2",
+        "drupal/components": "^2.4",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",

@@ -3,3 +3,13 @@ $primary: #4b7415;
 @import url("https://fonts.googleapis.com/css?family=Dosis");
 $font-family-base: "Dosis";
 $font-size-base: 1.25rem;
+
+// https://getbootstrap.com/docs/5.0/content/typography/
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 2.5rem,
+  5: 3rem,
+  6: 2.5rem
+);

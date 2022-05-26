@@ -1,6 +1,9 @@
 in VS Code
 
 - no need to cd into the theme folder
+- ddev start
+- ddev launch
+- see that .vscode/settings.json has "proxyUri": the same as the one ddev just opened. eg http://127.0.0.1:49154. This is not the one ddev opened at launch but terminal gave that as an alternative. Or do ddev describe. This url can change between sessions
 - F1
 - Live Server: open with live server
 - click Watch SASS item in bottom right tool tray

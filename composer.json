@@ -29,6 +29,7 @@
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/logintoboggan": "1.x-dev@dev",
         "drupal/pathauto": "^1.10",
+        "drupal/realname": "^2.0@beta",
         "drupal/webform": "^6.1",
         "drush/drush": "^11.0"
     },

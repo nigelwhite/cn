@@ -31,5 +31,6 @@
 
 # Ignore local dev resources
 /.ddev
+/.vscode
 /localdev
 

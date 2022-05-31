@@ -25,6 +25,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/entity_print": "^2.5",
+        "drupal/field_group": "^3.2",
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",
         "drupal/logintoboggan": "1.x-dev@dev",

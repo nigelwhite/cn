@@ -23,18 +23,6 @@ footer.footer-dark a {
   font-family: Rye;
 }
 
-.region-content {
-  margin-top: 3.5rem;
-}
-
-.cn-homepage .region-content {
-  margin-top: 3rem;
-}
-
-.cn-page-subtitle {
-  margin: 1rem 0;
-}
-
 .infographic {
   margin: 6rem auto;
   width: 100%;
@@ -69,5 +57,45 @@ svg-img {
 
 .nav-tabs .nav-link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: medium;
+  // font-size: medium;
+}
+
+// =================================================
+// FORMS
+
+#user-register-form,
+#user-login-form,
+#user-pass,
+#block-registrationhelp,
+#block-b5subtheme-local-tasks,
+.node--type-webform {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#block-registrationhelp {
+  margin-bottom: 5rem;
+}
+
+#block-registrationhelp {
+  font-size: $font-size-cn-instructions;
+}
+
+// =================================================
+// LAYOUT
+
+#block-b5subtheme-content {
+  margin-top: 3rem;
+}
+
+.region-content {
+  margin-top: 3.5rem;
+}
+
+.cn-homepage .region-content {
+  margin-top: 3rem;
+}
+
+.cn-page-subtitle {
+  margin: 1rem 0;
 }

@@ -6,6 +6,10 @@ body {
   background-color: #e2faf6;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-dark .navbar-brand a.site-title,
 .navbar-dark .navbar-nav .nav-link,
 footer.footer-dark a {
@@ -131,7 +135,5 @@ svg-img {
 }
 
 .cn-link {
-  text-decoration: underline;
-  color: green;
   cursor: pointer;
 }

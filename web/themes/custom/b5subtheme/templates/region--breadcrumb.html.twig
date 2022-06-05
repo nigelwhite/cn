@@ -19,7 +19,7 @@
   ]
 %}
 {% if content %}
-  <div{{ attributes.addClass(classes) }}>
+  <div class="d-flex justify-content-end align-items-center" {{ attributes.addClass(classes) }}>
     {{ drupal_block('system_breadcrumb_block') }}
     {{ drupal_block('system_menu_block:account') }}
   </div>

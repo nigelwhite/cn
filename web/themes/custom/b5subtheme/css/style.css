@@ -12613,18 +12613,22 @@ svg-img {
   margin-top: 5rem;
 }
 
-#block-useraccountmenu .navbar-nav {
-  text-align: right;
-}
-
-#block-useraccountmenu .navbar-nav .nav-link, #block-useraccountmenu .navbar-nav .media-library-view--widget .view-header a, .media-library-view--widget .view-header #block-useraccountmenu .navbar-nav a {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-}
-
 .nav-tabs .nav-link, .media-library-view--widget .view-header .nav-link, .media-library-view--widget .view-header a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.9rem;
+}
+
+.menu--account a,
+.breadcrumb-item a {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb {
+  padding: 0;
+  margin: 0;
 }
 
 #user-register-form,

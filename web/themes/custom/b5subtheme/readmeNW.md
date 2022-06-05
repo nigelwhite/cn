@@ -12,6 +12,6 @@ Setup to get live server and watch sass working - https://nwhite.uk/oyster/web/n
 
 No node modules required as we're using VS Code extensions
 
+project/twig_tweak is used to insert blocks into region--breadcrumb.html.twig
 [790] => system_breadcrumb_block
-[535] => field_block:user:user:login
 [785] => system_menu_block:account

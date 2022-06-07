@@ -93,19 +93,31 @@ svg-img {
 // LAYOUT
 
 #block-b5subtheme-content {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .region-content {
-  margin-top: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 .cn-homepage .region-content {
-  margin-top: 3rem;
+  margin-top: 0;
+}
+
+.cn-title {
+  margin-bottom: 2rem;
 }
 
 .cn-page-subtitle {
   margin: 1rem 0;
+}
+
+.cn-link {
+  cursor: pointer;
+}
+
+.navbar-brand .site-slogan {
+  font-size: 1.25rem;
 }
 
 // =================================================
@@ -138,10 +150,10 @@ svg-img {
   text-align: right;
 }
 
-.cn-link {
-  cursor: pointer;
+.full-map a {
+  font-size: 0.9rem;
 }
 
-.navbar-brand .site-slogan {
-  font-size: 1.25rem;
+.full-map {
+  margin-bottom: 4rem;
 }

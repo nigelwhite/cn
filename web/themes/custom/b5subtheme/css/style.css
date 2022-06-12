@@ -12665,10 +12665,6 @@ main {
   margin-top: 0;
 }
 
-.cn-title {
-  margin-bottom: 2rem;
-}
-
 .cn-page-subtitle {
   margin: 1rem 0;
 }
@@ -12679,6 +12675,20 @@ main {
 
 .navbar-brand .site-slogan {
   font-size: 1.25rem;
+}
+
+.cn-title {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.basic-text-indented {
+  margin-left: 1rem;
+}
+
+.title-wrapper {
+  background-color: #99e0d5;
+  border-radius: 5px;
 }
 
 .outer-map-container {

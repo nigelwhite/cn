@@ -18,8 +18,8 @@ blockquote:
       label: Citation
       description: URL where the original text can be found (optional).
       preview: "https://example.com/"
-  libraries:
-    - blockquote:
-        css:
-          component:
-            css/blockquote.css: {}
+  # libraries:
+  #   - blockquote:
+  #       css:
+  #         component:
+  #           css/blockquote.css: {}

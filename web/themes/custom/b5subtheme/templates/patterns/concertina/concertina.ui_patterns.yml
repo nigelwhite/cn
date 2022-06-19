@@ -1,0 +1,20 @@
+blockquote:
+  label: "Concertina"
+  description: A single concertina item.
+  # variants: ...
+  fields:
+    name:
+      type: text
+      label: name
+      description: The name of the term.
+      preview: "Term name"
+    description:
+      type: text
+      label: description
+      description: The text body of the term.
+      preview: "All about this term"
+    target:
+      type: text
+      label: target
+      description: the target itself for the js
+      preview: openingHoursModal

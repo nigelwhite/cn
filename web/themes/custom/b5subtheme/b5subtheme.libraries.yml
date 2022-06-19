@@ -4,7 +4,6 @@ global-styling:
       css/style.css: {}
       css/cn-overrides.css: {}
       css/cn-style.css: {}
-      templates/patterns/blockquote/blockquote.css: {}
 
 open_sans:
   version: VERSION

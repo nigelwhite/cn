@@ -12557,6 +12557,10 @@ code {
   overflow-y: auto;
 }
 
+.blockquote__content {
+  background-color: blue;
+}
+
 body {
   background-color: #e2faf6;
 }

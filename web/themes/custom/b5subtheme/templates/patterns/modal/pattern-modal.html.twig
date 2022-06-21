@@ -1,28 +1,21 @@
-<div
-	class="modal-code">
-	<!-- Button trigger modal -->
-	<p>
-		<a class="cn-link" data-bs-target="#{{ target }}" data-bs-toggle="modal">{{ name }}</a>
-		<!-- Modal -->
-	</p>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target={{"#targetId"}}>
+	{{ name }}
+</button>
 
-	<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="{{ target }}" tabindex="-1">
-		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">
-						{{ name }}
-					</h5>
-					<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-				</div>
-
-				<div class="modal-body">{{ description }}</div>
-
-				<div class="modal-footer">
-					<button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
-						Close
-					</button>
-				</div>
+<!-- Modal -->
+<div class="modal fade" id="{{targetId}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">{{ name }}</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				{{ description }}
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>

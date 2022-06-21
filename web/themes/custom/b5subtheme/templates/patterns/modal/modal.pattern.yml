@@ -1,6 +1,6 @@
 modal:
   label: "Modal"
-  description: A single concertina item.
+  description: A single modal item.
   # variants: ...
   fields:
     name:
@@ -13,8 +13,8 @@ modal:
       label: description
       description: The text body of the term.
       preview: "All about this term"
-    target:
+    targetId:
       type: text
       label: target
-      description: the target itself for the js
-      preview: openingHoursModal
+      description: the target for the js
+      preview: "openingHoursModal"

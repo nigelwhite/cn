@@ -1,5 +1,5 @@
-concertina:
-  label: "Concertina"
+modal:
+  label: "Modal"
   description: A single concertina item.
   # variants: ...
   fields:

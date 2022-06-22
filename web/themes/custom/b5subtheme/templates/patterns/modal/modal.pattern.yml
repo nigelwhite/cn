@@ -3,18 +3,15 @@ modal:
   description: A single modal item.
   # variants: ...
   fields:
-    name:
+    modal_name:
       type: text
-      label: name
-      description: The name of the term.
+      label: modal_name
       preview: "Term name"
-    description:
+    modal_description:
       type: text
-      label: description
-      description: The text body of the term.
+      label: modal_description
       preview: "All about this term"
-    targetId:
+    modal_targetId:
       type: text
-      label: target
-      description: the target for the js
+      label: modal_targetId
       preview: "openingHoursModal"

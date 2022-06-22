@@ -1,0 +1,16 @@
+accordion:
+  label: "Accordion"
+  # variants: ...
+  fields:
+    accordion_header:
+      type: text
+      label: accordion_header
+      preview: "Accordion header"
+    accordion_body:
+      type: text
+      label: accordion_body
+      preview: "All about this accordion item"
+    accordion_id:
+      type: text
+      label: accordion_id
+      preview: "exampleAccordion"

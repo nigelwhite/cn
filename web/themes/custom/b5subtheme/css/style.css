@@ -12737,4 +12737,9 @@ main {
 
 .cn-announce {
   margin: 4rem 0;
+}
+
+.btn, button.link, .button, a.button, .node-preview-container .node-preview-backlink {
+  background-color: #60b1a3;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */

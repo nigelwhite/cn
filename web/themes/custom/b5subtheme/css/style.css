@@ -12729,4 +12729,12 @@ main {
 
 .full-map {
   margin-bottom: 4rem;
+}
+
+.footer-flex div {
+  margin: 0.5rem 10px;
+}
+
+.cn-announce {
+  margin: 4rem 0;
 }/*# sourceMappingURL=style.css.map */

@@ -29,7 +29,6 @@
         "drupal/field_group": "^3.2",
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",
-        "drupal/logintoboggan": "1.x-dev@dev",
         "drupal/pathauto": "^1.10",
         "drupal/realname": "^2.0@beta",
         "drupal/twig_tweak": "^3.1",

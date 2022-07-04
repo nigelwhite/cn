@@ -12735,10 +12735,23 @@ main {
   margin: 0.5rem 10px;
 }
 
-.cn-announce {
-  margin: 4rem 0;
+.footer-flex-links {
+  font-size: 1.1rem;
 }
 
+.cn-announce {
+  margin: 4rem auto;
+  background-color: #d1be97;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .cn-announce {
+    width: 60%;
+  }
+}
 .btn, button.link, .button, a.button, .node-preview-container .node-preview-backlink {
   background-color: #60b1a3;
   border: 0;

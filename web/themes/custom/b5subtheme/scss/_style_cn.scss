@@ -176,8 +176,22 @@ main {
   margin: 0.5rem 10px;
 }
 
+.footer-flex-links {
+  font-size: 1.1rem;
+}
+
 .cn-announce {
-  margin: 4rem 0;
+  margin: 4rem auto;
+  background-color: #d1be97;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+}
+
+@include media-breakpoint-up(lg) {
+  .cn-announce {
+    width: 60%;
+  }
 }
 
 .btn {

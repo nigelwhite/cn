@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b86644cfb6eb0b40a74a6a0bbc807a32",
+    "content-hash": "70055e08c285d50aa6fbcd5fea2c0959",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1703,6 +1703,60 @@
                 "source": "https://git.drupalcode.org/project/coffee",
                 "issues": "https://drupal.org/project/issues/coffee",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/cookies",
+            "version": "1.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cookies.git",
+                "reference": "1.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cookies-1.0.18.zip",
+                "reference": "1.0.18",
+                "shasum": "0fa643630b7d500e606911d1bd12f0b869fa8e7e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "jfeltkamp/cookiesjsr": "^1.0.12"
+            },
+            "require-dev": {
+                "drupal/google_tag": "*",
+                "drupal/ivw_integration": "*",
+                "drupal/matomo": "*",
+                "drupal/media_entity_instagram": "*",
+                "drupal/media_entity_twitter": "*",
+                "drupal/recaptcha": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.18",
+                    "datestamp": "1648201197",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JFeltkamp",
+                    "homepage": "https://www.drupal.org/user/2471686"
+                }
+            ],
+            "description": "Cookie consent tool.",
+            "homepage": "https://www.drupal.org/project/cookies",
+            "support": {
+                "source": "http://cgit.drupalcode.org/cookies",
+                "issues": "https://www.drupal.org/project/issues/cookies"
             }
         },
         {
@@ -3841,6 +3895,33 @@
                 }
             ],
             "time": "2022-06-20T21:43:03+00:00"
+        },
+        {
+            "name": "jfeltkamp/cookiesjsr",
+            "version": "1.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jfeltkamp/cookiesjsr.git",
+                "reference": "a25132aadb01975cbe77dc7746fd5cf15f06d246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jfeltkamp/cookiesjsr/zipball/a25132aadb01975cbe77dc7746fd5cf15f06d246",
+                "reference": "a25132aadb01975cbe77dc7746fd5cf15f06d246",
+                "shasum": ""
+            },
+            "type": "drupal-library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Cookie consent tool.",
+            "homepage": "https://github.com/jfeltkamp/cookiesjsr",
+            "support": {
+                "issues": "https://github.com/jfeltkamp/cookiesjsr/issues",
+                "source": "https://github.com/jfeltkamp/cookiesjsr.git"
+            },
+            "time": "2022-03-25T09:05:23+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",

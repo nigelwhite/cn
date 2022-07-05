@@ -12747,6 +12747,11 @@ main {
   width: 100%;
   font-size: 1.1rem;
 }
+.cn-announce p,
+.cn-announce h5,
+.cn-announce .h5 {
+  text-align: center;
+}
 
 @media (min-width: 992px) {
   .cn-announce {

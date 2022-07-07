@@ -11,7 +11,3 @@ modal:
       type: text
       label: modal_description
       preview: "All about this term"
-    modal_targetId:
-      type: text
-      label: modal_targetId
-      preview: "openingHoursModal"

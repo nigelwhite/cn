@@ -11,3 +11,7 @@ modal:
       type: text
       label: modal_description
       preview: "All about this term"
+    modal_id:
+      type: text
+      label: dynamic_id
+      preview: "myFoot"

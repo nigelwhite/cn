@@ -1,8 +1,4 @@
-{# {% set modal_id = random() %} #}
-{% set modal_id = uuid() %}{# {{ attributes.setAttribute('id', 'modal_id') }} #}
-
-
-<!-- Button trigger modal --><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ modal_id }}"> </button>
+<!-- Button trigger modal --><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ modal_id }}">{{ modal_name }}</button>
 
 <!-- Modal -->
 <div class="modal fade" id="{{ modal_id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

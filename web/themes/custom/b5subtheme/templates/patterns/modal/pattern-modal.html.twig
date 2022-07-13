@@ -1,8 +1,8 @@
-<!-- Button trigger modal --><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{modal_name|render|striptags|replace({' ': ''}) }}">{{ modal_name }}</button>
+<!-- Button trigger modal --><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{% spaceless %}{{modal_name|render|striptags|replace({' ': ''}) }}{% endspaceless %}">{{ modal_name }}</button>
 
 <!-- Modal -->
 
-<div class="modal fade" id="{{modal_name|render|striptags|replace({' ': ''}) }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="{% spaceless %}{{modal_name|render|striptags|replace({' ': ''}) }}{% endspaceless %}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 		<div class="modal-content">
 			<div class="modal-header">

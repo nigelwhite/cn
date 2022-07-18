@@ -1,0 +1,30 @@
+uuid: cee2fe1d-b4cb-4cac-ac52-f7b051394e60
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:30a7e45d-c10f-4fc0-8286-a95876d43e51'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5subtheme
+id: registrationhelp
+theme: b5subtheme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:30a7e45d-c10f-4fc0-8286-a95876d43e51'
+settings:
+  id: 'block_content:30a7e45d-c10f-4fc0-8286-a95876d43e51'
+  label: 'Registration help'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/register

@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: jv0PKCJEOq2bOwY9RspuPZCf67ifVJ4tfTk-BfZMw8k
+site_key: 6LeJJMcgAAAAAHT9uEXgqt-h2S4N1lfJKgPZRGMi
+secret_key: 6LeJJMcgAAAAAEMOLvyl4Q50zpWwD8bvtOWr_DBq
+verify_hostname: true
+default_challenge: captcha/Math
+error_message: 'Antibot verification failed.'
+cacheable: false

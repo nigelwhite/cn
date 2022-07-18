@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: wLBov096oOxcnoxLUtLrtkQ5hrtgSaH16kftZqLuNcE
+super_login:
+  login_text: 'Email address'
+  forgot_pw_text: 'Forgot password?'
+  capslock_msg: 'Caps Lock is on'
+  new_account_text: 'Create new account'
+  login_title: 'Please log in so we know who you are'
+  password_reset_title: 'Password Reset'
+  back_link: 'Go back to the login page'
+  messages: true
+  css: true
+  button_theme: null
+  placeholder: true
+  autofocus: true
+  login_type: 2
+  capslock: true
+  login_placeholder: ''
+  pass_placeholder: ''

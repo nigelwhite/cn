@@ -3,18 +3,32 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
-    - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
   module:
-    - comment
+    - field_group
     - image
     - text
     - user
+third_party_settings:
+  field_group:
+    group_modal:
+      children: {  }
+      label: modal
+      parent_name: ''
+      region: hidden
+      weight: 20
+      format_type: pattern_formatter
+      format_settings:
+        show_empty_fields: 0
+        pattern: ''
+        pattern_mapping: {  }
+        pattern_variant: ''
+        classes: ''
+        id: ''
 _core:
   default_config_hash: b4RQ-Nfz-gOoG_jjftd_qDIz4lf_-OzlxoLHkRXjfrE
 id: node.article.default
@@ -29,21 +43,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  comment:
-    type: comment_default
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    weight: 110
-    region: content
   field_image:
     type: image
     label: hidden
     settings:
       image_link: ''
       image_style: large
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: -1
     region: content
@@ -60,4 +67,8 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

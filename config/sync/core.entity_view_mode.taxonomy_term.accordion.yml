@@ -1,0 +1,10 @@
+uuid: 5a4f18b1-1854-45da-8d56-9b7ca2b504ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.accordion
+label: Accordion
+targetEntityType: taxonomy_term
+cache: true

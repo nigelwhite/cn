@@ -1,0 +1,20 @@
+uuid: 50fff6b5-44ea-4b70-83bf-a4fd8969f543
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_post_code
+  module:
+    - user
+id: user.user.field_post_code
+field_name: field_post_code
+entity_type: user
+bundle: user
+label: 'Post code'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

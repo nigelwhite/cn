@@ -4,11 +4,12 @@ langcode: en
 uuid: bafc7d70-c305-4e1b-bc19-570573e462a4
 name: 'Cuckoo''s Nest'
 mail: admin@example.com
-slogan: 'Community shop in Marsden'
+slogan: 'Keeping money in Marsden'
 page:
-  403: ''
+  403: /toboggan/denied
   404: ''
   front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: ''

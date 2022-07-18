@@ -1,0 +1,34 @@
+uuid: 27694f0e-fdd8-4413-bbce-fb4d3d8139a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools_block
+    - system
+  theme:
+    - b5subtheme
+id: title
+theme: b5subtheme
+region: content
+weight: -3
+provider: null
+plugin: 'entity_field:node:title'
+settings:
+  id: 'entity_field:node:title'
+  label: Title
+  label_display: '0'
+  provider: ctools_block
+  context_mapping:
+    entity: '@node.node_route_context:node'
+  formatter:
+    type: string
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

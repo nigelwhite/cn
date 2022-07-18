@@ -1,0 +1,59 @@
+uuid: 8d68eecf-de16-4774-a6ae-3fb3f5638d8e
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.accordion
+    - taxonomy.vocabulary.content
+  module:
+    - ds
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+  ds:
+    layout:
+      id: pattern_accordion
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        pattern:
+          field_templates: only_content
+    regions:
+      accordion_header:
+        - taxonomy_term_title
+      accordion_body:
+        - description
+      accordion_id:
+        - field_js_target
+    fields:
+      taxonomy_term_title:
+        plugin_id: taxonomy_term_title
+        weight: 0
+        label: hidden
+        formatter: default
+        settings:
+          link: false
+          'link class': ''
+          wrapper: div
+          class: ''
+id: taxonomy_term.content.accordion
+targetEntityType: taxonomy_term
+bundle: content
+mode: accordion
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: accordion_body
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

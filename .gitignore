@@ -33,3 +33,6 @@
 /.ddev
 /.vscode
 /localdev
+
+# Ignore the extra cuckoosnestmarsden folder
+/www.cuckoosnestmarsden.org.uk

@@ -11637,4 +11637,9 @@ main {
 .btn, button.link, .button, a.button, .node-preview-container .node-preview-backlink {
   background-color: #60b1a3;
   border: 0;
+}
+
+.field--name-field-media-svg img {
+  margin: 0 auto;
+  width: 5rem;
 }/*# sourceMappingURL=style.css.map */

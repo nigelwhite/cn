@@ -1,0 +1,223 @@
+// .navbar {
+//   padding: 2rem 0;
+// }
+
+body {
+  background-color: #e2faf6;
+  // background-color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-brand a.site-title,
+.navbar-dark .navbar-nav .nav-link,
+footer.footer-dark a {
+  color: #c7ae7b;
+}
+
+.navbar-brand .site-title {
+  text-transform: none;
+  font-size: 2.5rem;
+  font-family: Rye;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: Rye;
+}
+
+.field--name-title {
+  font-size: 2rem;
+}
+
+// .node--type-page {
+//   max-width: 700px;
+//   margin: 0 auto;
+// }
+
+.infographic {
+  margin: 6rem auto;
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+    width: 70%;
+  }
+  @include media-breakpoint-up(md) {
+    width: 60%;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 40%;
+  }
+}
+
+svg-img {
+  width: 100%;
+  height: auto;
+}
+
+.cn-welcome {
+  margin-top: 5rem;
+}
+
+.nav-tabs .nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+}
+
+.menu--account a,
+.breadcrumb-item a {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+}
+
+// =================================================
+// FORMS
+
+#user-register-form,
+#user-login-form,
+#user-pass,
+#block-registrationhelp,
+#block-b5subtheme-local-tasks,
+.node--type-webform {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#block-registrationhelp {
+  margin-bottom: 5rem;
+}
+
+#block-registrationhelp {
+  font-size: $font-size-cn-instructions;
+}
+
+// =================================================
+// LAYOUT
+
+#block-b5subtheme-content {
+  margin-top: 1rem;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+.region-content {
+  margin-top: 1.5rem;
+}
+
+.cn-homepage .region-content {
+  margin-top: 0;
+}
+
+.cn-page-subtitle {
+  margin: 1rem 0;
+}
+
+.cn-link {
+  cursor: pointer;
+}
+
+.navbar-brand .site-slogan {
+  font-size: 1.25rem;
+}
+
+.cn-title {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.basic-text-indented {
+  margin-left: 1rem;
+}
+.title-wrapper {
+  background-color: $primary-lighten-2;
+  border-radius: 5px;
+}
+
+// =================================================
+// MAP
+
+.outer-map-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.full-map {
+  text-align: right;
+}
+
+.full-map a {
+  font-size: 0.9rem;
+}
+
+.full-map {
+  margin-bottom: 4rem;
+}
+
+.footer-flex div {
+  margin: 0.5rem 10px;
+}
+
+.footer-flex-links {
+  font-size: 1.1rem;
+}
+
+.cn-announce {
+  margin: 1rem auto;
+  background-color: #d1be97;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+  p,
+  h5 {
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .cn-announce {
+    width: 60%;
+  }
+}
+
+.btn {
+  background-color: $primary-lighten-1;
+  border: 0;
+}
+
+.field--name-field-media-svg {
+  margin: 0 auto;
+  width: 600px;
+  img {
+    margin: 0 auto;
+    width: 600px;
+  }
+}

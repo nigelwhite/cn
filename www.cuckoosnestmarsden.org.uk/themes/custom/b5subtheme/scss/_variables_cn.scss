@@ -1,0 +1,20 @@
+$primary: #36786d;
+$primary-lighten-1: #60b1a3;
+$primary-lighten-2: #99e0d5;
+
+@import url("https://fonts.googleapis.com/css?family=Dosis:wght@200..700&display=swap");
+$font-family-base: "Dosis";
+$font-size-base: 1.2rem;
+$font-size-cn-instructions: 1.3rem;
+
+@import url("https://fonts.googleapis.com/css2?family=Rye:wght@400&display=swap");
+
+// https://getbootstrap.com/docs/5.0/content/typography/
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 2.5rem,
+  5: 3rem,
+  6: 2.5rem
+);

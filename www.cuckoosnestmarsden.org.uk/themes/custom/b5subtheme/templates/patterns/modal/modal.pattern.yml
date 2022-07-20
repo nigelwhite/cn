@@ -1,0 +1,13 @@
+modal:
+  label: "Modal"
+  description: A single modal item.
+  # variants: ...
+  fields:
+    modal_name:
+      type: text
+      label: modal_name
+      preview: "Term name"
+    modal_description:
+      type: text
+      label: modal_description
+      preview: "All about this term"

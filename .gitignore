@@ -33,6 +33,3 @@
 /.ddev
 /.vscode
 /localdev
-
-# Ignore the folder needed on remote
-/wwww.cuckoosnestmarsden.org.uk

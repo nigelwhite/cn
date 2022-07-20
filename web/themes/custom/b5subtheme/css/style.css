@@ -11642,4 +11642,8 @@ main {
 .field--name-field-media-svg {
   margin: 0 auto;
   width: 600px;
+}
+.field--name-field-media-svg img {
+  margin: 0 auto;
+  width: 600px;
 }/*# sourceMappingURL=style.css.map */

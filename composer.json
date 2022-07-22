@@ -20,6 +20,7 @@
         "drupal/auto_username": "^1.2",
         "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap5": "^1.1",
+        "drupal/captcha": "^1.4",
         "drupal/coffee": "^1.2",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",

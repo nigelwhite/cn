@@ -5,9 +5,9 @@ global-styling:
       css/cn-overrides.css: {}
       css/cn-style.css: {}
 
-open_sans:
-  version: VERSION
+fonts:
   css:
-    component:
+    theme:
       fonts/open_sans.css: {}
-      //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700: {}
+      //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700:
+        { type: external }

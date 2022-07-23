@@ -11639,11 +11639,8 @@ main {
   border: 0;
 }
 
-.field--name-field-media-svg {
+.field--name-field-media-svg img {
   margin: 3rem auto;
   max-width: 600px;
-}
-.field--name-field-media-svg img {
-  margin: 0 auto;
-  max-width: 600px;
+  display: block;
 }/*# sourceMappingURL=style.css.map */

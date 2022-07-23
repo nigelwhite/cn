@@ -215,9 +215,9 @@ main {
 
 .field--name-field-media-svg {
   margin: 3rem auto;
-  width: 600px;
+  max-width: 600px;
   img {
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
   }
 }

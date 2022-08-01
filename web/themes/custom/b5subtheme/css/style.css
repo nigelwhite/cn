@@ -11462,13 +11462,21 @@ footer.footer-dark a {
 }
 
 .nav-link, .media-library-view--widget .view-header a {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.265rem + 0.18vw);
   font-family: Rye;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .nav-link, .media-library-view--widget .view-header a {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
+}
+
+.menu--account .nav-link, .menu--account .media-library-view--widget .view-header a, .media-library-view--widget .view-header .menu--account a {
+  width: 10rem;
+  text-align: end;
 }
 
 .field--name-title {

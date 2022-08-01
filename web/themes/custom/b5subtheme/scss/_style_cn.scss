@@ -24,8 +24,16 @@ footer.footer-dark a {
 }
 
 .nav-link {
-  @include rfs(1.5rem);
+  @include rfs(1.4rem);
   font-family: Rye;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu--account .nav-link {
+  width: 10rem;
+  text-align: end;
 }
 
 .field--name-title {

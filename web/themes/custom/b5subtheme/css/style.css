@@ -11462,8 +11462,13 @@ footer.footer-dark a {
 }
 
 .nav-link, .media-library-view--widget .view-header a {
-  font-size: 1.5rem;
+  font-size: calc(1.275rem + 0.3vw);
   font-family: Rye;
+}
+@media (min-width: 1200px) {
+  .nav-link, .media-library-view--widget .view-header a {
+    font-size: 1.5rem;
+  }
 }
 
 .field--name-title {

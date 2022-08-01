@@ -189,12 +189,12 @@ main {
   margin-bottom: 4rem;
 }
 
-.footer-flex div {
-  margin: 0.5rem 10px;
-}
-
-.footer-flex-links {
-  font-size: 1.1rem;
+.cn-footer-links .cn-footer-info {
+  display: flex;
+  flex-direction: column;
+  div a {
+    text-align: center;
+  }
 }
 
 .cn-announce {

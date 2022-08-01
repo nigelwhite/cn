@@ -189,12 +189,30 @@ main {
   margin-bottom: 4rem;
 }
 
-.cn-footer-links .cn-footer-info {
+.cn-footer-links,
+.cn-footer-info {
   display: flex;
   flex-direction: column;
-  div a {
-    text-align: center;
+  justify-content: center;
+  margin: 1rem 0;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
   }
+  div {
+    text-align: center;
+    padding: 0.4rem 0;
+    @include media-breakpoint-up(lg) {
+      padding: 0 2rem;
+    }
+  }
+}
+
+.cn-footer-info {
+  font-size: 1rem;
+}
+
+.cn-footer-links {
+  @include rfs(1.5rem);
 }
 
 .cn-announce {

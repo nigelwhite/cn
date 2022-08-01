@@ -11625,12 +11625,42 @@ main {
   margin-bottom: 4rem;
 }
 
-.cn-footer-links .cn-footer-info {
+.cn-footer-links,
+.cn-footer-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 1rem 0;
 }
-.cn-footer-links .cn-footer-info div a {
+@media (min-width: 992px) {
+  .cn-footer-links,
+.cn-footer-info {
+    flex-direction: row;
+  }
+}
+.cn-footer-links div,
+.cn-footer-info div {
   text-align: center;
+  padding: 0.4rem 0;
+}
+@media (min-width: 992px) {
+  .cn-footer-links div,
+.cn-footer-info div {
+    padding: 0 2rem;
+  }
+}
+
+.cn-footer-info {
+  font-size: 1rem;
+}
+
+.cn-footer-links {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .cn-footer-links {
+    font-size: 1.5rem;
+  }
 }
 
 .cn-announce {

@@ -19,7 +19,7 @@ footer.footer-dark a {
 
 .navbar-brand .site-title {
   text-transform: none;
-  font-size: 2.5rem;
+  @include rfs(2.5rem);
   font-family: Rye;
 }
 

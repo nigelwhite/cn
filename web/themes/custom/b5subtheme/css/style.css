@@ -11480,7 +11480,12 @@ footer.footer-dark a {
 }
 
 .field--name-title {
-  font-size: 2rem;
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .field--name-title {
+    font-size: 2rem;
+  }
 }
 
 .infographic {
@@ -11591,8 +11596,13 @@ main {
 }
 
 .outer-map-container {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .outer-map-container {
+    width: 60%;
+  }
 }
 
 .map-container {

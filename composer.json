@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.1",
         "drupal/auto_username": "^1.2",
         "drupal/backup_migrate": "^5.0",
@@ -32,6 +33,7 @@
         "drupal/field_group": "^3.2",
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",
+        "drupal/mail_login": "^2.6",
         "drupal/pathauto": "^1.11",
         "drupal/realname": "^2.0@beta",
         "drupal/recaptcha_v3": "^1.6",
@@ -54,13 +56,20 @@
         "allow-plugins": {
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "cweagans/composer-patches": true
         }
     },
     "extra": {
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            }
+        },
+        "enable-patching": "true",
+        "patches": {
+            "drupal/mail-login": {
+                "Add password reset functionality": "https://www.drupal.org/files/issues/2022-06-17/add_password_reset_functionality.patch"
             }
         },
         "installer-paths": {

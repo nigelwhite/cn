@@ -1,12 +1,12 @@
 _core:
   default_config_hash: EspchZru2hYTTeNNAnTw2uWwT-mjJ46KrM5XEVHJzS0
 langcode: en
-uuid: df4774b2-3dd9-4124-9c0f-e5745fe46c95
+uuid: dceb9adb-6ca3-4d51-a0a4-106aa4d41501
 popup_enabled: true
 popup_clicking_confirmation: false
 popup_scrolling_confirmation: false
-eu_only: null
-eu_only_js: null
+eu_only: false
+eu_only_js: false
 popup_position: false
 fixed_top_position: true
 popup_info:

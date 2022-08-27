@@ -54,6 +54,8 @@ filters:
       allowed_media_types:
         document: document
         image: image
+        remote_video: remote_video
+        vector_image: vector_image
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter

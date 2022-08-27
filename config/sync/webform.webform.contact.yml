@@ -2,9 +2,22 @@ uuid: 2ffbab29-7113-4e02-983a-09462235d6ad
 langcode: en
 status: open
 dependencies:
+  module:
+    - webform_entity_print
   enforced:
     module:
       - webform
+third_party_settings:
+  webform_entity_print:
+    template:
+      header: ''
+      footer: ''
+      css: ''
+    export_types:
+      pdf:
+        enabled: true
+        link_text: ''
+        link_attributes: {  }
 _core:
   default_config_hash: CJr5U2B4if_Ff1SZfnNp_csPKwXIynmbUlBC-SmSOAE
 weight: 0
@@ -50,7 +63,7 @@ settings:
   ajax_progress_type: ''
   ajax_effect: ''
   ajax_speed: null
-  page: true
+  page: false
   page_submit_path: ''
   page_confirm_path: ''
   page_theme_name: ''

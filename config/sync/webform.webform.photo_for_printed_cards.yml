@@ -182,7 +182,7 @@ settings:
   confirmation_type: page
   confirmation_url: ''
   confirmation_title: ''
-  confirmation_message: 'Thank you for uploading your photos.'
+  confirmation_message: "Thank you for uploading your photos. Please feel free to submit more!<br />\r\n<br />\r\nWe&#39;ll be judging in early September and we&#39;ll contact the winners.<br />\r\n&nbsp;"
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''

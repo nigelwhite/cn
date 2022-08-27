@@ -23,6 +23,7 @@
         "drupal/bootstrap5": "^2.0",
         "drupal/captcha": "^1.4",
         "drupal/coffee": "^1.2",
+        "drupal/config_ignore": "^2.3",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",

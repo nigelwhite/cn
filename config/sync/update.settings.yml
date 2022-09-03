@@ -9,5 +9,5 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - xm2@btinternet.com
-  threshold: security
+    - admin@example.com
+  threshold: all

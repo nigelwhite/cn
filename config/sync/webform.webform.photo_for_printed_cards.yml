@@ -261,7 +261,7 @@ handlers:
   email_notification:
     id: email
     handler_id: email_notification
-    label: 'Email Notification'
+    label: 'Photo uploaded'
     notes: ''
     status: true
     conditions: {  }
@@ -269,7 +269,7 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: _default
+      to_mail: white.helen@btinternet.com
       to_options: {  }
       bcc_mail: ''
       bcc_options: {  }

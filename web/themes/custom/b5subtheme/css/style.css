@@ -11959,9 +11959,9 @@ footer.footer-dark a {
   }
 }
 
-.menu--account .nav-link, .menu--account .media-library-view--widget .view-header a, .media-library-view--widget .view-header .menu--account a {
+.menu--account .nav-item {
   width: 10rem;
-  text-align: end;
+  margin: 0 auto;
 }
 
 .field--name-title {

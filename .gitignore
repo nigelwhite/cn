@@ -37,3 +37,7 @@
 
 # ignore theme tools
 web/themes/custom/b5subtheme/node_modules/
+web/themes/custom/b5subtheme/webpack.mix.js
+web/themes/custom/b5subtheme/package.json
+web/themes/custom/b5subtheme/package-lock.json
+web/themes/custom/b5subtheme/mix-manifest.json

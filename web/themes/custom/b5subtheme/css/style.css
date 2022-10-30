@@ -12182,7 +12182,8 @@ main {
   margin-top: 0;
 }
 
-.cn-banner {
-  margin: 0 auto;
-  display: block;
+.cn-banner-credit {
+  font-size: x-small;
+  text-align: right;
+  padding-right: 5px;
 }

@@ -91,25 +91,19 @@ set footer_classes = ' ' ~
 	</picture>
 	<p class="cn-banner-credit">Photo: Lucy Hanson</p>
 </banner>
-
+<div class="front-panel-1 text-center">
+	<div class="fs-2">Welcome to The Cuckoo's Nest</div>
+	<div class="fs-4">Community owned charity shop in Marsden</div>
+	<div class="fs-4">The Cuckoo's Nest is a small Community Charity which is based in the heart of Marsden</div>
+</div>
 <main role="main">
-	<a id="main-content" tabindex="-1"></a>
-	{# link is in html.html.twig #}
-
-	{%
+	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}{%
   set sidebar_first_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'
-  %}
-
-	{%
+  %}{%
   set sidebar_second_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'
-  %}
-
-	{%
+  %}{%
   set content_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-lg-6' : ((page.sidebar_first or page.sidebar_second) ? 'col-12 col-lg-9' : 'col-12' )
-   %}
-
-
-	<div class="{{ b5_top_container }}">
+   %}<div class="{{ b5_top_container }}">
 		{% if page.breadcrumb %}
 			{{ page.breadcrumb }}
 		{% endif %}

@@ -91,11 +91,30 @@ set footer_classes = ' ' ~
 	</picture>
 	<p class="cn-banner-credit">Photo: Lucy Hanson</p>
 </banner>
+
 <div class="front-panel-1 text-center">
-	<div class="fs-2">Welcome to The Cuckoo's Nest</div>
-	<div class="fs-4">Community owned charity shop in Marsden</div>
-	<div class="fs-4">The Cuckoo's Nest is a small Community Charity which is based in the heart of Marsden</div>
+	<div class="fs-1">Welcome to The Cuckoo's Nest</div>
+	<div class="fs-3">Community owned charity shop in Marsden</div>
+	<div class="fs-5">The Cuckoo's Nest is a small Community Charity which is based in the heart of Marsden</div>
 </div>
+
+<div class="container-fluid p-0">
+	<div class="row g-0">
+		<div class="col">
+			<img src="{{ active_theme_path() }}/images/13.jpg" alt="Looking out past the shop display" class="img-fluid"/>
+		</div>
+		<div class="col">
+			<img src="{{ active_theme_path() }}/images/12.jpg" alt="Looking out past the shop display" class="img-fluid"/>
+		</div>
+		<div class="col p-2">
+			<img src="{{ active_theme_path() }}/images/infographic.gif" alt="Looking out past the shop display" class="img-fluid"/>
+		</div>
+		<div class="col">
+			<img src="{{ active_theme_path() }}/images/2.jpg" alt="Looking out past the shop display" class="img-fluid"/>
+		</div>
+	</div>
+</div>
+
 <main role="main">
 	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}{%
   set sidebar_first_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'

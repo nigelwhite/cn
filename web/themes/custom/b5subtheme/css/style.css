@@ -12050,10 +12050,6 @@ main {
   margin-top: 1.5rem;
 }
 
-.cn-page-subtitle {
-  margin: 1rem 0;
-}
-
 .cn-link {
   cursor: pointer;
 }
@@ -12192,12 +12188,26 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .front-panel-2 {
     flex-direction: row;
   }
 }
-.front-panel-2 button {
+.front-panel-2 a {
   width: 200px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .front-panel-2 a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.cn-page-subtitle {
+  margin: 2rem 0;
 }

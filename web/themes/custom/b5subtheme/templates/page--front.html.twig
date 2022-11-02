@@ -89,24 +89,25 @@ set footer_classes = ' ' ~
 		<source srcset="{{ active_theme_path() }}/images/window-facing-out-400.jpg 400w" media="(max-width: 400px)">
 		<img src="{{ active_theme_path() }}/images/window-facing-out.jpg" alt="Looking out past the shop display" class="img-fluid"/>
 	</picture>
-	<p class="cn-banner-credit">Photo: Lucy Hanson</p>
+
 </banner>
 
 <div class="front-panel-1 text-center">
 	<div class="fs-1 py-4">Welcome to The Cuckoo's Nest</div>
-	<div class="fs-3 ">Community owned charity shop in Marsden</div>
+	<div class="fs-3 pb-3">Community owned charity shop in Marsden</div>
 </div>
 
-<div class="font-panel-2 pb-5">
-	<button type="button" class="btn btn-primary cn_modal_button">Donate your stuff</button>
-
-	<button type="button" class="btn btn-primary cn_modal_button">Volunteer</button>
-
-	<button type="button" class="btn btn-primary cn_modal_button">Get a grant</button>
+<div class="front-panel-2 pb-5">
+	<a class="btn btn-primary cn_modal_button" href="/recycle">Donate your stuff
+	</a>
+	<a class="btn btn-primary cn_modal_button" href="/volunteer">Volunteer
+	</a>
+	<a class="btn btn-primary cn_modal_button" href="/grants">Get a grant
+	</a>
 </div>
 
 
-<div class="container-fluid px-0 pt-2 pb-5">
+<div class="container-fluid px-0 pt-3 pb-5">
 	<div class="row g-0">
 		<div class="col-sm-6 col-lg-3">
 			<img src="{{ active_theme_path() }}/images/13.jpg" alt="Looking out past the shop display" class="img-fluid"/>
@@ -150,6 +151,7 @@ set footer_classes = ' ' ~
 			{% endif %}
 		</div>
 	</div>
+	<p class="cn-banner-credit">Photos: Lucy Hanson</p>
 </main>
 {% if page.footer %}
 	<footer class="mt-auto {{ footer_classes }}">

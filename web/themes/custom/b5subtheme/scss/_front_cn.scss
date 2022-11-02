@@ -11,10 +11,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     flex-direction: row;
   }
-  button {
+  margin: 0 auto;
+  a {
     width: 200px;
+    margin-right: 0;
+    margin-left: 0;
   }
+}
+
+.front-panel-2 a {
+  @include media-breakpoint-up(md) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.cn-page-subtitle {
+  margin: 2rem 0;
 }

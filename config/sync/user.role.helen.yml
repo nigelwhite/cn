@@ -1,0 +1,29 @@
+uuid: c02a6da7-37ce-4228-85bb-3e6571c773c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - node.type.page
+    - taxonomy.vocabulary.content
+  module:
+    - captcha
+    - filter
+    - node
+    - shortcut
+    - taxonomy
+    - webform
+id: helen
+label: Helen
+weight: 4
+is_admin: null
+permissions:
+  - 'access shortcuts'
+  - 'access taxonomy overview'
+  - 'access user profiles'
+  - 'administer users'
+  - 'edit any page content'
+  - 'edit terms in content'
+  - 'skip CAPTCHA'
+  - 'use text format full_html'
+  - 'view any webform submission'

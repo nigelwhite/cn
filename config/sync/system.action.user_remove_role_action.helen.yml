@@ -1,0 +1,14 @@
+uuid: 36b85133-91be-4434-a871-2591de871356
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.helen
+  module:
+    - user
+id: user_remove_role_action.helen
+label: 'Remove the Helen role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: helen

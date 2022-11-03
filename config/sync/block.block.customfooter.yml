@@ -11,7 +11,7 @@ dependencies:
 id: customfooter
 theme: b5subtheme
 region: footer
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:0f5dd0ef-da54-4522-bc26-041fed76a36e'
 settings:

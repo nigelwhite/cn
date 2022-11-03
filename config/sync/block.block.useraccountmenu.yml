@@ -10,8 +10,8 @@ dependencies:
     - b5subtheme
 id: useraccountmenu
 theme: b5subtheme
-region: breadcrumb
-weight: 0
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

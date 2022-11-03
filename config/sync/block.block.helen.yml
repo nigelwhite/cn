@@ -1,0 +1,37 @@
+uuid: 5fdc217c-a424-4d92-b9de-499d0c5cbb63
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.helen
+  module:
+    - system
+    - user
+  theme:
+    - b5subtheme
+id: helen
+theme: b5subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:helen'
+settings:
+  id: 'system_menu_block:helen'
+  label: Helen
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/5
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      helen: helen

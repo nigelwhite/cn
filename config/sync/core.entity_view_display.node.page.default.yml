@@ -21,6 +21,14 @@ third_party_settings:
       settings:
         classes:
           layout_class: {  }
+          header:
+            cn-head-ds-region: cn-head-ds-region
+          left:
+            cn-left-ds-region: cn-left-ds-region
+          right:
+            cn-right-ds-region: cn-right-ds-region
+          footer:
+            cn-footer-ds-region: cn-footer-ds-region
         wrappers:
           header: div
           left: div
@@ -32,12 +40,12 @@ third_party_settings:
         link_custom: ''
         label: ''
     regions:
-      header:
+      left:
+        - field_media_image
+      right:
         - body
       footer:
         - field_download
-      left:
-        - field_media_image
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
@@ -50,8 +58,8 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
-    region: header
+    weight: 1
+    region: right
   field_download:
     type: entity_reference_entity_view
     label: above
@@ -59,16 +67,16 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: footer
   field_media_image:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 103
+    weight: 0
     region: left
 hidden:
   entity_print_view_epub: true

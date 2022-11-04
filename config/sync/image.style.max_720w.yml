@@ -1,0 +1,15 @@
+uuid: 1a9fb4e5-3134-4c65-bba9-2dfc936b7936
+langcode: en
+status: true
+dependencies: {  }
+name: max_720w
+label: 'Max 720w'
+effects:
+  2e77e4fd-91db-4d36-9521-86bb3c07fdc3:
+    uuid: 2e77e4fd-91db-4d36-9521-86bb3c07fdc3
+    id: image_scale
+    weight: 1
+    data:
+      width: 720
+      height: null
+      upscale: false

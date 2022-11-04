@@ -6,6 +6,10 @@ ft-default: default
 ft-show-colon: false
 ft-layout-builder: false
 classes:
-  region: {  }
+  region:
+    - cn-head-ds-region
+    - cn-left-ds-region
+    - cn-right-ds-region
+    - cn-footer-ds-region
   field: {  }
 use_field_names: true

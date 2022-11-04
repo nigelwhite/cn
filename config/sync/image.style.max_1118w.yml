@@ -1,0 +1,15 @@
+uuid: 81ec78f0-11cc-440e-b05a-58942a90c04c
+langcode: en
+status: true
+dependencies: {  }
+name: max_1118w
+label: 'Max 1118w'
+effects:
+  048638d5-aea6-427d-9049-579278c91dc6:
+    uuid: 048638d5-aea6-427d-9049-579278c91dc6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1118
+      height: null
+      upscale: false

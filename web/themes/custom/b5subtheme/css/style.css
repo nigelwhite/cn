@@ -12211,3 +12211,19 @@ main {
 .cn-page-subtitle {
   margin: 2rem 0;
 }
+
+.cn-head-ds-region {
+  width: 100%;
+}
+
+.ds-2col-stacked .cn-left-ds-region {
+  width: 25%;
+}
+
+.ds-2col-stacked .cn-right-ds-region {
+  width: 75%;
+}
+
+.cn-footer-ds-region {
+  width: 100%;
+}

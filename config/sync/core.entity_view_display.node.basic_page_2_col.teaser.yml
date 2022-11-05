@@ -1,20 +1,18 @@
-uuid: 4692f8f4-85ee-408d-b4ff-7e3701630c25
+uuid: 83069868-9c09-4803-8471-7cc857f122d8
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - field.field.node.page.field_download
-    - node.type.page
+    - field.field.node.basic_page_2_col.body
+    - field.field.node.basic_page_2_col.field_media_image
+    - node.type.basic_page_2_col
   module:
     - text
     - user
-_core:
-  default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
-id: node.page.teaser
+id: node.basic_page_2_col.teaser
 targetEntityType: node
-bundle: page
+bundle: basic_page_2_col
 mode: teaser
 content:
   body:
@@ -23,14 +21,16 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 100
+    weight: 101
     region: content
   links:
-    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
   entity_print_view_epub: true
   entity_print_view_pdf: true
   entity_print_view_word_docx: true
-  field_download: true
+  field_media_image: true
   langcode: true

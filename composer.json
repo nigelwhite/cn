@@ -21,6 +21,7 @@
         "drupal/auto_username": "^1.2",
         "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap5": "^2.0",
+        "drupal/bootstrap_layouts": "^5.2",
         "drupal/captcha": "^1.4",
         "drupal/coffee": "^1.2",
         "drupal/config_ignore": "^2.3",

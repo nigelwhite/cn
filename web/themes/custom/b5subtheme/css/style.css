@@ -12184,14 +12184,18 @@ main {
   }
 }
 
-.cn-homepage .region-content {
-  margin-top: 0;
+#block-title {
+  margin: 2rem 0;
 }
 
-.cn-banner-credit {
+.cn-credit {
   font-size: x-small;
   text-align: right;
   padding-right: 5px;
+}
+
+.cn-homepage .region-content {
+  margin-top: 0;
 }
 
 .front-panel-2 {

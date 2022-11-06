@@ -233,3 +233,11 @@ main {
   background-color: $primary-lighten-1;
   border: 0;
 }
+
+.cn-basic2col-image {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+  }
+}

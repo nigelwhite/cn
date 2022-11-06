@@ -11,12 +11,12 @@ dependencies:
     - image.style.max_839w
     - image.style.max_width_960
 id: basic_page_main_image
-label: 'Basic page main image'
+label: 'Basic page 2 col'
 image_style_mappings:
   -
     image_mapping_type: sizes
     image_mapping:
-      sizes: '(min-width: 1400px) 411px, (min-width: 1200px) 351px, (min-width: 1000px) 291px, (min-width: 780px) 211px, (min-width: 580px) 250px, calc(50vw - 20px)'
+      sizes: '(min-width: 1400px) 411px, (min-width: 1200px) 351px, (min-width: 1000px) 291px, (min-width: 780px) 211px, (min-width: 580px) 100%, 100%'
       sizes_image_styles:
         - max_1118w
         - max_320w

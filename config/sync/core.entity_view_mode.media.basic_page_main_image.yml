@@ -1,0 +1,10 @@
+uuid: 71aac3bb-4cb0-41ce-ab42-0843ad521530
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.basic_page_main_image
+label: 'Basic page 2 col'
+targetEntityType: media
+cache: true

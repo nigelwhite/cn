@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page_2_col.body
+    - field.field.node.basic_page_2_col.field_download
     - field.field.node.basic_page_2_col.field_media_image
     - node.type.basic_page_2_col
   module:
@@ -24,6 +25,13 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
+    third_party_settings: {  }
+  field_download:
+    type: media_library_widget
+    weight: 123
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_media_image:
     type: media_library_widget

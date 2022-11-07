@@ -1,4 +1,4 @@
-uuid: 1de2fb7d-5556-41df-8391-1de0588749df
+uuid: a1b371e3-c96a-439a-ba3a-a70a044a1a0c
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ dependencies:
     - b5subtheme
 id: views_block__content_modals_block_2
 theme: b5subtheme
-region: sidebar_second
-weight: -6
+region: content
+weight: 0
 provider: null
 plugin: 'views_block:content_modals-block_2'
 settings:

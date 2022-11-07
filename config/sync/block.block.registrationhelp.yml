@@ -12,7 +12,7 @@ dependencies:
 id: registrationhelp
 theme: b5subtheme
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: 'block_content:30a7e45d-c10f-4fc0-8286-a95876d43e51'
 settings:

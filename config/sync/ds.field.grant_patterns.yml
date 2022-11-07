@@ -1,0 +1,11 @@
+id: grant_patterns
+label: 'Grant patterns'
+ui_limit: ''
+type: block
+type_label: 'Block field'
+entities:
+  node: node
+properties:
+  block: 'views_block:content_modals-block_1'
+  use_block_title: false
+  add_block_wrappers: false

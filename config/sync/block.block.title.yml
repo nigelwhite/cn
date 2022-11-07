@@ -10,7 +10,7 @@ dependencies:
 id: title
 theme: b5subtheme
 region: content
-weight: -5
+weight: -4
 provider: null
 plugin: 'entity_field:node:title'
 settings:

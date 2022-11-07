@@ -55,11 +55,10 @@ third_party_settings:
             add_region_classes: 1
             attributes: ''
     regions:
-      right:
-        - body
       left:
         - field_media_image
-      top:
+      right:
+        - body
         - field_download
 id: node.basic_page_2_col.default
 targetEntityType: node
@@ -71,7 +70,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 10
+    weight: 1
     region: right
   field_download:
     type: entity_reference_label
@@ -79,8 +78,8 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 103
-    region: top
+    weight: 2
+    region: right
   field_media_image:
     type: entity_reference_entity_view
     label: hidden
@@ -90,7 +89,7 @@ content:
     third_party_settings:
       field_formatter_class:
         class: cn-basic2col-image
-    weight: 102
+    weight: 0
     region: left
 hidden:
   entity_print_view_epub: true

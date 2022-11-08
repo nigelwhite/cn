@@ -12,11 +12,11 @@ mode: default
 content:
   description:
     type: text_trimmed
-    label: above
+    label: hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   images:
     type: entity_reference_entity_view

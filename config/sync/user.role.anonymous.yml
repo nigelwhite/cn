@@ -6,6 +6,7 @@ dependencies:
     - contact
     - eu_cookie_compliance
     - media
+    - media_gallery
     - search
     - system
 _core:
@@ -20,3 +21,4 @@ permissions:
   - 'display eu cookie compliance popup'
   - 'search content'
   - 'view media'
+  - 'view published media gallery entities'

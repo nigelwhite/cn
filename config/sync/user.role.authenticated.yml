@@ -9,6 +9,7 @@ dependencies:
     - eu_cookie_compliance
     - filter
     - media
+    - media_gallery
     - search
     - system
 _core:
@@ -24,3 +25,4 @@ permissions:
   - 'search content'
   - 'use text format basic_html'
   - 'view media'
+  - 'view published media gallery entities'

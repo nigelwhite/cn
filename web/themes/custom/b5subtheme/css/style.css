@@ -12198,6 +12198,10 @@ main {
   margin-top: 4rem;
 }
 
+#cboxTitle {
+  display: none !important;
+}
+
 .cn-homepage .region-content {
   margin-top: 0;
 }

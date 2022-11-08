@@ -12,7 +12,7 @@ module:
   captcha: 0
   ckeditor: 0
   coffee: 0
-  color: 0
+  colorbox: 0
   config: 0
   contact: 0
   ctools: 0
@@ -39,6 +39,7 @@ module:
   layout_discovery: 0
   link: 0
   media: 0
+  media_gallery: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0

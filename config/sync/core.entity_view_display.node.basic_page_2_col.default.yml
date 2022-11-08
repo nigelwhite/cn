@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.basic_page_2_col.body
     - field.field.node.basic_page_2_col.field_download
     - field.field.node.basic_page_2_col.field_media_image
+    - field.field.node.basic_page_2_col.field_modal_content
     - node.type.basic_page_2_col
   module:
     - ds
@@ -55,11 +56,12 @@ third_party_settings:
             add_region_classes: 1
             attributes: ''
     regions:
-      left:
-        - field_media_image
       right:
+        - field_modal_content
         - body
         - field_download
+      left:
+        - field_media_image
 id: node.basic_page_2_col.default
 targetEntityType: node
 bundle: basic_page_2_col
@@ -91,6 +93,19 @@ content:
         class: cn-basic2col-image
     weight: 0
     region: left
+  field_modal_content:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: modal
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: ''
+    weight: -1
+    region: right
 hidden:
   entity_print_view_epub: true
   entity_print_view_pdf: true

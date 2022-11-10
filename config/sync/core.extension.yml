@@ -35,7 +35,6 @@ module:
   history: 0
   image: 0
   image_captcha: 0
-  language: 0
   layout_discovery: 0
   link: 0
   media: 0

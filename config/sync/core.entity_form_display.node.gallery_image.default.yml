@@ -12,20 +12,25 @@ dependencies:
   module:
     - datetime
     - media_library
+    - text
 id: node.gallery_image.default
 targetEntityType: node
 bundle: gallery_image
 mode: default
 content:
-  field_date:
-    type: datetime_default
+  body:
+    type: text_textarea_with_summary
     weight: 4
     region: content
-    settings: {  }
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
     third_party_settings: {  }
-  field_gallery:
-    type: options_buttons
-    weight: 2
+  field_date:
+    type: datetime_default
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -38,7 +43,7 @@ content:
     third_party_settings: {  }
   field_source:
     type: string_textfield
-    weight: 3
+    weight: 2
     region: content
     settings:
       size: 60
@@ -60,8 +65,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  body: true
   created: true
+  field_gallery: true
   path: true
   promote: true
   sticky: true

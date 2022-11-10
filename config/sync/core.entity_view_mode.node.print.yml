@@ -1,0 +1,15 @@
+uuid: fd7bd9cb-a4cd-4712-8b17-e96345f444ad
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - book
+_core:
+  default_config_hash: es9asR8rmvOZwRXJRTBJ1TlLL1hzbVn4ZGuqR1pvU0E
+id: node.print
+label: Print
+targetEntityType: node
+cache: true

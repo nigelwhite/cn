@@ -1,0 +1,29 @@
+uuid: 009d4aee-a8f9-48b9-8bde-484a04a89f56
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+    - node
+  theme:
+    - b5subtheme
+id: booknavigation
+theme: b5subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: 'Book navigation'
+  label_display: '0'
+  provider: book
+  block_mode: 'all pages'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      book: book

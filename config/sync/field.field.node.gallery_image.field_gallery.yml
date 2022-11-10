@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_gallery
     - node.type.gallery_image
     - taxonomy.vocabulary.gallery
+  content:
+    - 'taxonomy_term:gallery:c3ef92ae-924a-47fe-a526-7ba32b91bc6d'
 id: node.gallery_image.field_gallery
 field_name: field_gallery
 entity_type: node
@@ -14,7 +16,9 @@ label: Gallery
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: c3ef92ae-924a-47fe-a526-7ba32b91bc6d
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

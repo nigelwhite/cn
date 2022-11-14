@@ -259,3 +259,23 @@ main {
 #cboxTitle {
   display: none !important;
 }
+
+#book-block-menu-25 {
+  margin-top: 3rem;
+}
+
+.align-left .field--name-field-media-image picture img {
+  @include media-breakpoint-up(lg) {
+    padding-right: 2rem;
+  }
+}
+
+.align-right .field--name-field-media-image picture img {
+  @include media-breakpoint-up(lg) {
+    padding-left: 1rem;
+  }
+}
+
+figcaption {
+  font-size: small;
+}

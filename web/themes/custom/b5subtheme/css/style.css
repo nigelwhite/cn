@@ -12202,6 +12202,26 @@ main {
   display: none !important;
 }
 
+#book-block-menu-25 {
+  margin-top: 3rem;
+}
+
+@media (min-width: 992px) {
+  .align-left .field--name-field-media-image picture img {
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .align-right .field--name-field-media-image picture img {
+    padding-left: 1rem;
+  }
+}
+
+figcaption {
+  font-size: small;
+}
+
 .cn-homepage .region-content {
   margin-top: 0;
 }

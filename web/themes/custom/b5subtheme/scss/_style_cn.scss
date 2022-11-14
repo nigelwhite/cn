@@ -23,7 +23,7 @@ footer.footer-dark a {
   font-family: Rye;
 }
 
-.nav-link {
+#block-b5subtheme-main-navigation .nav-link {
   @include rfs(1.4rem);
   font-family: Rye;
   width: 80%;
@@ -278,4 +278,9 @@ main {
 
 figcaption {
   font-size: small;
+}
+
+#block-phoenixandalison,
+#block-helen {
+  margin-top: 4rem;
 }

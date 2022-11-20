@@ -12119,10 +12119,18 @@ main {
   justify-content: center;
   margin: 1rem 0;
 }
+.cn-footer-links p,
+.cn-footer-info p {
+  text-align: center;
+}
 @media (min-width: 992px) {
   .cn-footer-links,
 .cn-footer-info {
     flex-direction: row;
+  }
+  .cn-footer-links p,
+.cn-footer-info p {
+    padding-right: 2rem;
   }
 }
 .cn-footer-links div,

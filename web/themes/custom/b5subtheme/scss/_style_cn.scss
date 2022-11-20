@@ -190,8 +190,14 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: 1rem 0;
+  p {
+    text-align: center;
+  }
   @include media-breakpoint-up(lg) {
     flex-direction: row;
+    p {
+      padding-right: 2rem;
+    }
   }
   div {
     text-align: center;

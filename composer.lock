@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67032b534c50e22e0ce9d895c6764169",
+    "content-hash": "358851d311341c1422688bcc4ad7661e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2803,6 +2803,54 @@
             }
         },
         {
+            "name": "drupal/exif_orientation",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/exif_orientation.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/exif_orientation-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "9b0e4325092bb9f37a0714c9587fa10823b4a023"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1593659917",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "NickDickinsonWilde",
+                    "homepage": "https://www.drupal.org/user/3094661"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "Rotates images per their EXIF Orientation",
+            "homepage": "https://www.drupal.org/project/exif_orientation",
+            "support": {
+                "source": "https://git.drupalcode.org/project/exif_orientation"
+            }
+        },
+        {
             "name": "drupal/field_formatter_class",
             "version": "1.5.0",
             "source": {
@@ -3403,58 +3451,6 @@
             "homepage": "https://www.drupal.org/project/recaptcha_v3",
             "support": {
                 "source": "https://git.drupalcode.org/project/recaptcha_v3"
-            }
-        },
-        {
-            "name": "drupal/simple_image_rotate",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/simple_image_rotate.git",
-                "reference": "2.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_image_rotate-2.1.0.zip",
-                "reference": "2.1.0",
-                "shasum": "47469625229367a79eb41f5d66fb17cb2494535c"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.1.0",
-                    "datestamp": "1614860623",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "afagioli",
-                    "homepage": "https://www.drupal.org/user/50680"
-                },
-                {
-                    "name": "khoomy",
-                    "homepage": "https://www.drupal.org/user/135921"
-                },
-                {
-                    "name": "leevh",
-                    "homepage": "https://www.drupal.org/user/426580"
-                }
-            ],
-            "description": "Simple image rotation",
-            "homepage": "https://www.drupal.org/project/simple_image_rotate",
-            "support": {
-                "source": "https://git.drupalcode.org/project/simple_image_rotate"
             }
         },
         {

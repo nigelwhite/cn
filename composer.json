@@ -33,6 +33,7 @@
         "drupal/email_registration": "^1.2",
         "drupal/entity_print": "^2.5",
         "drupal/eu_cookie_compliance": "^1.19",
+        "drupal/exif_orientation": "^1.1",
         "drupal/field_formatter_class": "^1.5",
         "drupal/field_group": "^3.2",
         "drupal/fpa": "^3.0",

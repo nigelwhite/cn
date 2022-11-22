@@ -12,6 +12,7 @@ dependencies:
   module:
     - datetime
     - field_formatter_class
+    - media
     - text
     - user
 id: node.gallery_image.default
@@ -21,10 +22,12 @@ mode: default
 content:
   body:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
-    third_party_settings: {  }
-    weight: 1
+    third_party_settings:
+      field_formatter_class:
+        class: cn-press-body
+    weight: 3
     region: content
   field_date:
     type: datetime_default
@@ -35,14 +38,16 @@ content:
     third_party_settings:
       field_formatter_class:
         class: ''
-    weight: 3
+    weight: 2
     region: content
   field_media_image:
-    type: entity_reference_entity_view
+    type: media_thumbnail
     label: hidden
     settings:
-      view_mode: default
-      link: false
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings:
       field_formatter_class:
         class: ''
@@ -54,7 +59,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
 hidden:
   entity_print_view_epub: true

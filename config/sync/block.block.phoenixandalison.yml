@@ -1,23 +1,23 @@
-uuid: 5fdc217c-a424-4d92-b9de-499d0c5cbb63
+uuid: c73b741a-8717-44fb-9e4e-16d26b834301
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.helen
+    - system.menu.phoenix-and-alison
   module:
     - system
     - user
   theme:
     - b5subtheme
-id: helen
+id: phoenixandalison
 theme: b5subtheme
 region: sidebar_second
-weight: -6
+weight: -5
 provider: null
-plugin: 'system_menu_block:helen'
+plugin: 'system_menu_block:phoenix-and-alison'
 settings:
-  id: 'system_menu_block:helen'
-  label: 'Helen''s links'
+  id: 'system_menu_block:phoenix-and-alison'
+  label: 'Phoenix and Alison''s links'
   label_display: visible
   provider: system
   level: 1
@@ -35,4 +35,4 @@ visibility:
       user: '@user.current_user_context:current_user'
     roles:
       administrator: administrator
-      helen: helen
+      phoenix_and_alison: phoenix_and_alison

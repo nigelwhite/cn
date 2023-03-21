@@ -1,3 +1,5 @@
+Webpack and Laravel Mix
+
 in VS Code
 
 - no need to cd into the theme folder

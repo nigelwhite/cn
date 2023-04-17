@@ -1,0 +1,16 @@
+uuid: 5a8b49f2-d9c1-4e8c-aef6-c139acb932f6
+langcode: en
+status: true
+dependencies: {  }
+id: split_to_ignore
+label: 'Split to ignore'
+description: ''
+weight: 0
+folder: ../config/split_to_ignore
+module: {  }
+theme: {  }
+blacklist:
+  - recaptcha_v3.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

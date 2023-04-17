@@ -6,6 +6,7 @@ dependencies:
     - contact
     - eu_cookie_compliance
     - media
+    - media_entity_download
     - media_gallery
     - search
     - system
@@ -19,6 +20,7 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'display eu cookie compliance popup'
+  - 'download media'
   - 'search content'
   - 'view media'
   - 'view published media gallery entities'

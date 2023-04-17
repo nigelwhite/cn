@@ -5,4 +5,4 @@ dependencies: {  }
 id: captcha_action_1
 label: 'captcha action 1'
 threshold: !!float 0
-challenge: captcha/Math
+challenge: image_captcha/Image

@@ -27,7 +27,7 @@
         "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "9.5.7",
+        "drupal/core-recommended": "9.5.8",
         "drupal/ctools": "^3.13",
         "drupal/ds": "^3.13",
         "drupal/email_registration": "^1.2",

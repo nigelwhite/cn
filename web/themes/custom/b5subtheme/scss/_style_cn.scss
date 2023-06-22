@@ -22,7 +22,7 @@ a:hover {
 /*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
 .btn-primary {
   color: black;
-  background-color: $lighten-1;
+  background-color: $primary-lighten-1;
   border: 0;
 }
 .btn-primary:hover,
@@ -31,7 +31,7 @@ a:hover {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: black;
-  background-color: $lighten-2;
+  background-color: $primary-lighten-2;
   border: 0;
 }
 
@@ -39,6 +39,11 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link,
 footer.footer-dark a {
   color: #717b80;
+}
+
+footer.footer-dark a:hover {
+  background-color: yellow;
+  color: black;
 }
 
 .navbar-brand .site-title {
@@ -61,7 +66,7 @@ footer.footer-dark a {
 }
 
 .field--name-title {
-  @include rfs(2rem);
+  @include rfs(1.25rem);
 }
 
 // .node--type-page {
@@ -237,7 +242,7 @@ main {
 }
 
 .cn-footer-links {
-  @include rfs(1.5rem);
+  @include rfs(1.25rem);
 }
 
 .cn-announce {

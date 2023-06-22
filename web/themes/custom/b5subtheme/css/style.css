@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:wght@200..700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -11828,7 +11828,7 @@ code {
 }
 
 body {
-  background-color: #e2faf6;
+  background-color: #fff;
 }
 
 a {
@@ -11840,7 +11840,7 @@ a {
 .navbar-dark .navbar-nav .media-library-view--widget .view-header a,
 .media-library-view--widget .view-header .navbar-dark .navbar-nav a,
 footer.footer-dark a {
-  color: #c7ae7b;
+  color: #717b80;
 }
 
 .navbar-brand .site-title {

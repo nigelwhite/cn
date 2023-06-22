@@ -11829,10 +11829,35 @@ code {
 
 body {
   background-color: #fff;
+  color: #464c4f;
 }
 
 a {
   text-decoration: none;
+  color: #316aab;
+}
+
+a:hover {
+  border-bottom: 5px solid #316aab;
+  background-color: yellow;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+  color: black;
+  background-color: #60b1a3;
+  border: 0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.media-library-view--widget .view-header a.btn-primary.is-active,
+.open > .dropdown-toggle.btn-primary {
+  color: black;
+  background-color: #99e0d5;
+  border: 0;
 }
 
 .navbar-dark .navbar-brand a.site-title,
@@ -12085,11 +12110,6 @@ main {
     width: 60%;
   }
 }
-.btn, button.link, .button, a.button, .node-preview-container .node-preview-backlink {
-  background-color: #60b1a3;
-  border: 0;
-}
-
 .cn-basic2col-image {
   margin-top: 2rem;
   margin-bottom: 3rem;

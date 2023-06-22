@@ -81,16 +81,22 @@ set footer_classes = ' ' ~
 
 </header>
 
-<banner class="cn-banner container mx-auto" style="width: 600px;">
-	<img
-	src="{{ active_theme_path() }}/images/image2-edited.png" class="img-fluid"/>
+<banner class="cn-banner container">
+	<img src="{{ active_theme_path() }}/images/image2-600.png" class="img-fluid mx-auto d-block"/>
+
 {# <picture>
-		<source srcset="{{ active_theme_path() }}/images/window-facing-out.jpg 1212w" media="(min-width: 1000px)">
-		<source srcset="{{ active_theme_path() }}/images/window-facing-out-800.jpg 800w" media="(min-width: 800px)">
-		<source srcset="{{ active_theme_path() }}/images/window-facing-out-600.jpg 600w" media="(min-width: 600px)">
-		<source srcset="{{ active_theme_path() }}/images/window-facing-out-400.jpg 400w" media="(max-width: 400px)">
-		<img src="{{ active_theme_path() }}/images/window-facing-out.jpg" alt="Looking out past the shop display" class="img-fluid"/>
-	</picture> #}
+							<source srcset="{{ active_theme_path() }}/images/window-facing-out.jpg 1212w" media="(min-width: 1000px)">
+							<source srcset="{{ active_theme_path() }}/images/window-facing-out-800.jpg 800w" media="(min-width: 800px)">
+							<source srcset="{{ active_theme_path() }}/images/window-facing-out-600.jpg 600w" media="(min-width: 600px)">
+							<source srcset="{{ active_theme_path() }}/images/window-facing-out-400.jpg 400w" media="(max-width: 400px)">
+							<img src="{{ active_theme_path() }}/images/window-facing-out.jpg" alt="Looking out past the shop display" class="img-fluid"/>
+						</picture> #}
+
+	{# <picture style="max-width: 600px">
+										<source srcset="{{ active_theme_path() }}/images/image2-600.png 600w" media="(min-width: 600px)">
+										<source srcset="{{ active_theme_path() }}/images/image2-400.png 400w" media="(max-width: 400px)">
+										<img src="{{ active_theme_path() }}/images/image2-600.png" alt="The nest of a cuckoo"/>
+									</picture> #}
 
 </banner>
 

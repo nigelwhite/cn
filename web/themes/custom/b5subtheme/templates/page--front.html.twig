@@ -93,14 +93,14 @@ set footer_classes = ' ' ~
 						</picture> #}
 
 	{# <picture style="max-width: 600px">
-												<source srcset="{{ active_theme_path() }}/images/image2-600.png 600w" media="(min-width: 600px)">
-												<source srcset="{{ active_theme_path() }}/images/image2-400.png 400w" media="(max-width: 400px)">
-												<img src="{{ active_theme_path() }}/images/image2-600.png" alt="The nest of a cuckoo"/>
-											</picture> #}
+															<source srcset="{{ active_theme_path() }}/images/image2-600.png 600w" media="(min-width: 600px)">
+															<source srcset="{{ active_theme_path() }}/images/image2-400.png 400w" media="(max-width: 400px)">
+															<img src="{{ active_theme_path() }}/images/image2-600.png" alt="The nest of a cuckoo"/>
+														</picture> #}
 
 </banner>
 
-<div class="front-panel-1 text-center">
+<div class="front-panel-1 text-center px-4 gx-5">
 	<div class="fs-2 pt-5 pb-4">Welcome to The Cuckoo's Nest</div>
 	<div class="fs-5 pb-3">Community owned charity shop in Marsden</div>
 </div>
@@ -132,7 +132,7 @@ set footer_classes = ' ' ~
 	</div>
 </div>
 
-<main role="main">
+<main role="main" class="gx-5">
 	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}{%
   set sidebar_first_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'
   %}{%

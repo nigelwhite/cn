@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   module:
+    - ds
+    - field_formatter_class
     - media_gallery
     - text
 id: media_gallery.media_gallery.default
@@ -11,10 +13,9 @@ bundle: media_gallery
 mode: default
 content:
   description:
-    type: text_trimmed
-    label: hidden
-    settings:
-      trim_length: 600
+    type: text_default
+    label: visually_hidden
+    settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
@@ -24,17 +25,31 @@ content:
     settings:
       view_mode: media_colorbox
       link: false
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: ''
     weight: 2
     region: content
   title:
     type: string
-    label: hidden
+    label: visually_hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content
+  use_pager:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 10
+    region: hidden
 hidden:
   created: true
   entity_print_view_epub: true

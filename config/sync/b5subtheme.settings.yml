@@ -4,15 +4,15 @@ features:
   comment_user_verification: 0
   favicon: 0
 logo:
-  use_default: 1
-  path: ''
+  use_default: 0
+  path: 'public://image1-edited.png'
 favicon:
   use_default: 1
 b5_top_container: container
 b5_top_container_config: ''
 b5_body_schema: none
 b5_body_bg_schema: none
-b5_navbar_schema: dark
+b5_navbar_schema: light
 b5_navbar_bg_schema: primary
 b5_footer_schema: dark
 b5_footer_bg_schema: primary

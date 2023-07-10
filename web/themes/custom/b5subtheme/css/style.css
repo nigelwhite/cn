@@ -12072,6 +12072,10 @@ main {
   padding-right: 5px;
 }
 
+.cn-credit-center {
+  text-align: center;
+}
+
 .field--name-field-download {
   margin-top: 4rem;
 }

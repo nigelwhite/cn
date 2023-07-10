@@ -12145,3 +12145,8 @@ figcaption {
 .cn-credit.cn-front {
   text-align: center;
 }
+
+.cn-front-images img,
+.cn-image img {
+  border-radius: 10px;
+}

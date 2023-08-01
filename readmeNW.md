@@ -1,8 +1,10 @@
 node content max width 1280px
 
-theme docs are in web/themes/custom/b5subtheme/readmeNW.md
+ddev import-db --file=~/Downloads/
+ddev composer require drupal/core-recommended:xxx --with-all-dependencies
+ddev composer update "drupal/\*" --with-all-dependencies
 
-Store front green is #17342f in real life
+theme docs are in web/themes/custom/b5subtheme/readmeNW.md
 
 Bootstrap breakpoints https://getbootstrap.com/docs/5.0/layout/breakpoints/
 @include media-breakpoint-up(lg) { ... }

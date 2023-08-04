@@ -1,0 +1,28 @@
+uuid: 65d203dc-10d7-411d-abef-b292d9804024
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.book
+    - node.type.gallery_image
+  module:
+    - node
+id: archivist
+label: Archivist
+weight: 9
+is_admin: null
+permissions:
+  - 'create book content'
+  - 'create gallery_image content'
+  - 'delete any book content'
+  - 'delete any gallery_image content'
+  - 'delete book revisions'
+  - 'delete gallery_image revisions'
+  - 'delete own book content'
+  - 'delete own gallery_image content'
+  - 'edit any book content'
+  - 'edit any gallery_image content'
+  - 'revert book revisions'
+  - 'revert gallery_image revisions'
+  - 'view book revisions'
+  - 'view gallery_image revisions'

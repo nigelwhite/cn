@@ -2,12 +2,9 @@ uuid: b476d6a0-2c78-4d45-8fd4-8a845ba915e2
 langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.basic_html
   module:
     - contact
     - eu_cookie_compliance
-    - filter
     - media
     - media_entity_download
     - media_gallery
@@ -25,7 +22,6 @@ permissions:
   - 'display eu cookie compliance popup'
   - 'download media'
   - 'search content'
-  - 'use text format basic_html'
   - 'view media'
   - 'view published media gallery entities'
   - 'view the administration theme'

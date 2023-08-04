@@ -4,11 +4,16 @@ status: true
 dependencies:
   config:
     - filter.format.full_html
+    - node.type.basic_page_2_col
+    - node.type.page
   module:
     - filter
+    - node
 id: content_editor
 label: 'Content editor'
 weight: 8
 is_admin: null
 permissions:
+  - 'edit any basic_page_2_col content'
+  - 'edit any page content'
   - 'use text format full_html'

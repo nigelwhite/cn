@@ -12,67 +12,24 @@ settings:
   toolbar:
     items:
       - bold
-      - italic
-      - strikethrough
-      - superscript
-      - subscript
-      - removeFormat
-      - '|'
-      - link
-      - '|'
       - bulletedList
-      - numberedList
-      - '|'
-      - drupalMedia
-      - blockQuote
-      - insertTable
       - horizontalLine
-      - '|'
       - heading
-      - '|'
-      - sourceEditing
-      - '|'
       - indent
       - outdent
-      - alignment
       - '|'
-      - code
-      - codeBlock
+      - link
+      - drupalMedia
   plugins:
     ckeditor5_heading:
       enabled_headings:
-        - heading1
         - heading2
         - heading3
         - heading4
         - heading5
-        - heading6
-    ckeditor5_sourceEditing:
-      allowed_tags:
-        - '<cite>'
-        - '<dl>'
-        - '<dt>'
-        - '<dd>'
-        - '<img src alt data-entity-type data-entity-uuid data-align data-caption>'
-        - '<a hreflang>'
-        - '<blockquote cite>'
-        - '<ul type>'
-        - '<ol type>'
-        - '<h2 id>'
-        - '<h3 id>'
-        - '<h4 id>'
-        - '<h5 id>'
-        - '<h6 id>'
-        - '<drupal-media title>'
     ckeditor5_list:
       reversed: false
-      startIndex: true
-    ckeditor5_alignment:
-      enabled_alignments:
-        - left
-        - center
-        - right
-        - justify
+      startIndex: false
     media_media:
       allow_view_mode_override: true
 image_upload:

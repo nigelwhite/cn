@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - filter.format.full_html
+    - media.type.document
     - media.type.image
+    - media.type.remote_video
+    - media.type.vector_image
     - node.type.book
     - node.type.gallery_image
   module:
@@ -12,25 +15,46 @@ dependencies:
     - captcha
     - filter
     - media
+    - media_gallery
     - node
     - shortcut
 id: phoenix_and_alison
-label: 'Phoenix and Alison'
+label: Phoenix
 weight: 5
 is_admin: null
 permissions:
+  - 'access content overview'
+  - 'access media gallery overview'
   - 'access shortcuts'
   - 'add content to books'
+  - 'add media gallery entities'
   - 'administer book outlines'
   - 'create book content'
+  - 'create document media'
   - 'create gallery_image content'
   - 'create image media'
+  - 'create remote_video media'
+  - 'create vector_image media'
   - 'delete any book content'
   - 'delete any gallery_image content'
+  - 'delete own document media'
   - 'delete own image media'
+  - 'delete own media gallery entities'
+  - 'delete own remote_video media'
+  - 'delete own vector_image media'
   - 'edit any book content'
+  - 'edit any document media'
   - 'edit any gallery_image content'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any vector_image media'
+  - 'edit own document media'
   - 'edit own image media'
+  - 'edit own media gallery entities'
+  - 'edit own remote_video media'
+  - 'edit own vector_image media'
   - 'skip CAPTCHA'
   - 'use text format full_html'
+  - 'view own unpublished content'
   - 'view own unpublished media'
+  - 'view unpublished media gallery entities'

@@ -1,14 +1,13 @@
-uuid: 58c51ced-2d39-4a89-8df2-2f7b031f8a4b
+uuid: 6e0d9a72-2190-443c-8ad9-9e425fc9b403
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.basic_page_2_col.body
-    - field.field.node.basic_page_2_col.field_media_image
-    - node.type.basic_page_2_col
+    - field.field.node.special.body
+    - field.field.node.special.field_sidebar_text
+    - node.type.special
   module:
     - ds
-    - field_formatter_class
     - text
     - user
 third_party_settings:
@@ -37,14 +36,18 @@ third_party_settings:
             wrapper: div
             classes:
               col-xs-12: col-xs-12
+              col-sm-12: col-sm-12
               col-md-4: col-md-4
+              col-lg-4: col-lg-4
             add_region_classes: 1
             attributes: ''
           right:
             wrapper: div
             classes:
               col-xs-12: col-xs-12
+              col-sm-12: col-sm-12
               col-md-8: col-md-8
+              col-lg-8: col-lg-8
             add_region_classes: 1
             attributes: ''
           bottom:
@@ -55,13 +58,12 @@ third_party_settings:
             attributes: ''
     regions:
       right:
-        - field_modal_content
         - body
       left:
-        - field_media_image
-id: node.basic_page_2_col.default
+        - field_sidebar_text
+id: node.special.default
 targetEntityType: node
-bundle: basic_page_2_col
+bundle: special
 mode: default
 content:
   body:
@@ -69,18 +71,14 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 101
     region: right
-  field_media_image:
-    type: entity_reference_entity_view
+  field_sidebar_text:
+    type: text_default
     label: hidden
-    settings:
-      view_mode: basic_page_main_image
-      link: false
-    third_party_settings:
-      field_formatter_class:
-        class: 'cn-basic2col-image cn-image'
-    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
     region: left
 hidden:
   entity_print_view_epub: true

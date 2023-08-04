@@ -5,7 +5,7 @@ features:
   favicon: 0
 logo:
   use_default: 0
-  path: 'public://image1-edited.png'
+  path: themes/custom/b5subtheme/images/image1-edited.png
 favicon:
   use_default: 1
 b5_top_container: container

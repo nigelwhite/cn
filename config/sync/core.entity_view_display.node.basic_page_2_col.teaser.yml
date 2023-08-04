@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.basic_page_2_col.body
     - field.field.node.basic_page_2_col.field_media_image
-    - field.field.node.basic_page_2_col.field_modal_content
     - node.type.basic_page_2_col
   module:
     - text
@@ -34,4 +33,3 @@ hidden:
   entity_print_view_pdf: true
   entity_print_view_word_docx: true
   field_media_image: true
-  field_modal_content: true

@@ -12,7 +12,7 @@ _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
 format: full_html
-weight: 2
+weight: -10
 filters:
   filter_align:
     id: filter_align
@@ -38,7 +38,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h1 class="text-align-left text-align-center text-align-right text-align-justify"> <h2 id class="text-align-left text-align-center text-align-right text-align-justify"> <h3 id class="text-align-left text-align-center text-align-right text-align-justify"> <h4 id class="text-align-left text-align-center text-align-right text-align-justify"> <h5 id class="text-align-left text-align-center text-align-right text-align-justify"> <h6 id class="text-align-left text-align-center text-align-right text-align-justify"> <cite> <dl> <dt> <dd> <img src alt data-entity-type data-entity-uuid data-align data-caption> <a hreflang href> <blockquote cite> <ul type> <ol type start> <drupal-media title data-entity-type data-entity-uuid alt data-view-mode data-caption data-align> <strong> <em> <code class="language-*"> <pre class="text-align-left text-align-center text-align-right text-align-justify"> <s> <sub> <sup> <li> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption>'
+      allowed_html: '<br> <p> <h2> <h3> <h4> <h5> <strong> <a href> <ul> <ol> <li> <hr> <drupal-media data-entity-type data-entity-uuid alt data-view-mode data-caption data-align>'
       filter_html_help: true
       filter_html_nofollow: false
   media_embed:
@@ -47,7 +47,7 @@ filters:
     status: true
     weight: 100
     settings:
-      default_view_mode: full
+      default_view_mode: media_library
       allowed_view_modes:
         full: full
         media_library: media_library

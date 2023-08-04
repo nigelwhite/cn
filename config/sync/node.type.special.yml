@@ -1,4 +1,4 @@
-uuid: 1e6c9d9f-fedf-4993-ad3e-ef996892105e
+uuid: bca4bad9-5a4b-4722-8711-6d1cf05ea922
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-_core:
-  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
-name: 'Home page'
-type: page
-description: 'Cuckoo''s Nest home page text'
+name: Special
+type: special
+description: 'One-off pages set up by Nigel'
 help: ''
 new_revision: true
 preview_mode: 1

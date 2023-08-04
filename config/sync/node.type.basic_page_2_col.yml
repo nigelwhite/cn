@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Basic page 2 col'
+name: 'Basic page Cuckoos'
 type: basic_page_2_col
-description: ''
+description: 'Main pages'
 help: ''
 new_revision: true
 preview_mode: 1

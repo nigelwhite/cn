@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Press cutting'
 type: gallery_image
-description: ''
+description: 'Add one page per cutting. They will be displayed in an Image Gallery at /press-cuttings, arranged in date order.'
 help: ''
 new_revision: true
 preview_mode: 1

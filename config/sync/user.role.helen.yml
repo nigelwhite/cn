@@ -5,7 +5,6 @@ dependencies:
   config:
     - filter.format.full_html
     - node.type.page
-    - taxonomy.vocabulary.content
   module:
     - captcha
     - filter
@@ -23,7 +22,6 @@ permissions:
   - 'access user profiles'
   - 'administer users'
   - 'edit any page content'
-  - 'edit terms in content'
   - 'skip CAPTCHA'
   - 'use text format full_html'
   - 'view any webform submission'

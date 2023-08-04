@@ -11954,6 +11954,10 @@ svg-img {
   margin: 0;
 }
 
+#block-b5subtheme-local-tasks .nav-link, #block-b5subtheme-local-tasks .media-library-view--widget .view-header a, .media-library-view--widget .view-header #block-b5subtheme-local-tasks a {
+  color: black;
+}
+
 #user-register-form,
 #user-login-form,
 #user-pass,

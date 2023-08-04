@@ -3,10 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - media.type.vector_image
     - node.type.book
     - node.type.gallery_image
   module:
+    - media
     - node
+    - publishcontent
 id: archivist
 label: Archivist
 weight: 9
@@ -14,15 +17,22 @@ is_admin: null
 permissions:
   - 'create book content'
   - 'create gallery_image content'
+  - 'create vector_image media'
   - 'delete any book content'
   - 'delete any gallery_image content'
   - 'delete book revisions'
   - 'delete gallery_image revisions'
   - 'delete own book content'
   - 'delete own gallery_image content'
+  - 'delete own vector_image media'
   - 'edit any book content'
   - 'edit any gallery_image content'
+  - 'edit own vector_image media'
+  - 'publish own node type book'
+  - 'publish own node type gallery_image'
   - 'revert book revisions'
   - 'revert gallery_image revisions'
+  - 'unpublish own node type book'
+  - 'unpublish own node type gallery_image'
   - 'view book revisions'
   - 'view gallery_image revisions'

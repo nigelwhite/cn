@@ -11904,7 +11904,12 @@ footer.footer-dark a:hover {
 }
 
 .field--name-title {
-  font-size: 1.25rem;
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .field--name-title {
+    font-size: 2.5rem;
+  }
 }
 
 .infographic {

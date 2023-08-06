@@ -12233,20 +12233,39 @@ ul .pagination {
 .view-cn-galleries .cn-gallery-row {
   margin-top: 3rem;
 }
-.view-cn-galleries .datetime {
+.view-cn-galleries .datetime,
+.view-cn-galleries .cn-picture-grid-title {
   display: block;
   padding-top: 0.5rem;
-}
-
-.node--type-gallery-image .field--name-field-media-image {
-  margin-bottom: 2rem;
-}
-.node--type-gallery-image .field:not(.field--name-field-media-image) {
-  margin-bottom: 1rem;
 }
 
 .cn-grid-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+}
+.cn-grid-item img {
+  border-radius: 10px;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.grow:hover img {
+  border-radius: 10px 10px 0 0;
+}
+
+.node--type-gallery-image .field--name-field-media-image,
+.node--type-cuckoos-picture-gallery .field--name-field-media-image {
+  margin-bottom: 2rem;
+}
+.node--type-gallery-image .field:not(.field--name-field-media-image),
+.node--type-cuckoos-picture-gallery .field:not(.field--name-field-media-image) {
+  margin-bottom: 1rem;
 }

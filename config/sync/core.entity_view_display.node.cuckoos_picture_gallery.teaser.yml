@@ -1,0 +1,35 @@
+uuid: 6cf56963-3099-4757-8edc-72cf481d67b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cuckoos_picture_gallery.body
+    - field.field.node.cuckoos_picture_gallery.field_media_image
+    - node.type.cuckoos_picture_gallery
+  module:
+    - text
+    - user
+id: node.cuckoos_picture_gallery.teaser
+targetEntityType: node
+bundle: cuckoos_picture_gallery
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  field_media_image: true

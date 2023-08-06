@@ -12,6 +12,7 @@ dependencies:
     - media
     - node
     - user
+    - views_bootstrap
 id: cn_galleries
 label: 'CN Galleries'
 module: views
@@ -237,7 +238,17 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       style:
-        type: grid
+        type: views_bootstrap_grid
+        options:
+          grouping: {  }
+          row_class: cn-gallery-row
+          default_row_class: true
+          col_xs: col-12
+          col_sm: col-sm-12
+          col_md: col-md-3
+          col_lg: col-lg-3
+          col_xl: col-xl-2
+          col_xxl: col-xxl-2
       row:
         type: fields
       query:

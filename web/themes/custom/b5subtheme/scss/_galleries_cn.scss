@@ -1,0 +1,18 @@
+.view-cn-galleries {
+  .cn-gallery-row {
+    margin-top: 3rem;
+  }
+  .datetime {
+    display: block;
+    padding-top: 0.5rem;
+  }
+}
+
+.node--type-gallery-image {
+  .field--name-field-media-image {
+    margin-bottom: 2rem;
+  }
+  .field:not(.field--name-field-media-image) {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+uuid: a82266d4-6be5-4443-94c3-ba99c5fb964d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cuckoos_picture_gallery
+  module:
+    - text
+id: node.cuckoos_picture_gallery.body
+field_name: body
+entity_type: node
+bundle: cuckoos_picture_gallery
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -11,7 +11,7 @@ id: node.gallery_image.field_date
 field_name: field_date
 entity_type: node
 bundle: gallery_image
-label: Date
+label: 'Date of publication'
 description: 'Date of item eg date of publication'
 required: true
 translatable: false

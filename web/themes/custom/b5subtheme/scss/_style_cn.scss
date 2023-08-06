@@ -319,6 +319,10 @@ main {
   font-weight: bold;
 }
 
+.book-navigation .book-pager {
+  margin-top: 2rem;
+}
+
 .align-left .field--name-field-media-image picture img {
   @include media-breakpoint-up(lg) {
     padding-right: 2rem;

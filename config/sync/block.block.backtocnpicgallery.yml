@@ -1,0 +1,33 @@
+uuid: 8d13bab1-2b6c-4eaf-b6e5-cfec40df70c1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b9859a97-d37c-4a49-a049-b709edae0b38'
+  module:
+    - block_content
+    - node
+  theme:
+    - b5subtheme
+id: backtocnpicgallery
+theme: b5subtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:b9859a97-d37c-4a49-a049-b709edae0b38'
+settings:
+  id: 'block_content:b9859a97-d37c-4a49-a049-b709edae0b38'
+  label: 'Back to CN pic gallery'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      cuckoos_picture_gallery: cuckoos_picture_gallery

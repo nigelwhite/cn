@@ -5,6 +5,7 @@ dependencies:
   config:
     - media.type.vector_image
     - node.type.book
+    - node.type.cuckoos_picture_gallery
     - node.type.gallery_image
   module:
     - media
@@ -15,18 +16,20 @@ label: Archivist
 weight: 9
 is_admin: null
 permissions:
+  - 'access content overview'
   - 'create book content'
+  - 'create cuckoos_picture_gallery content'
   - 'create gallery_image content'
   - 'create vector_image media'
   - 'delete any book content'
   - 'delete any gallery_image content'
   - 'delete book revisions'
   - 'delete gallery_image revisions'
-  - 'delete own book content'
-  - 'delete own gallery_image content'
+  - 'delete own cuckoos_picture_gallery content'
   - 'delete own vector_image media'
   - 'edit any book content'
   - 'edit any gallery_image content'
+  - 'edit own cuckoos_picture_gallery content'
   - 'edit own vector_image media'
   - 'publish own node type book'
   - 'publish own node type gallery_image'

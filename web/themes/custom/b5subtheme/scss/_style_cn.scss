@@ -55,9 +55,17 @@ footer.footer-dark a:hover {
 #block-b5subtheme-main-navigation .nav-link {
   @include rfs(1.4rem);
   font-family: Manrope;
-  width: 80%;
+  // width: 80%;
   margin: 0 auto;
   text-align: center;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+}
+#block-b5subtheme-main-navigation .nav-link:hover {
+  border-bottom: 5px solid #316aab;
+}
+
+.site-logo {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 .menu--account .nav-item {

@@ -54,6 +54,7 @@
         "drupal/token": "^1.11",
         "drupal/twig_tweak": "^3.1",
         "drupal/ui_patterns": "^1.2",
+        "drupal/views_bootstrap": "^5.5@alpha",
         "drupal/webform": "^6.1",
         "drupal/webp": "^1.0@beta",
         "drush/drush": "^11.0"

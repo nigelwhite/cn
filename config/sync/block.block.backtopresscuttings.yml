@@ -1,23 +1,23 @@
-uuid: 977b9f94-a2c7-45c8-bc9e-86ba73dfad80
+uuid: 0fab4855-2ee1-4d69-b0f0-83b99582a146
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:a5cb8d65-f831-4efc-85fa-a8fb7e415f72'
+    - 'block_content:basic:27877ab7-f891-41d9-8100-972cfd43046e'
   module:
     - block_content
     - node
   theme:
     - b5subtheme
-id: backtopressgrid
+id: backtopresscuttings
 theme: b5subtheme
 region: breadcrumb
 weight: 0
 provider: null
-plugin: 'block_content:a5cb8d65-f831-4efc-85fa-a8fb7e415f72'
+plugin: 'block_content:27877ab7-f891-41d9-8100-972cfd43046e'
 settings:
-  id: 'block_content:a5cb8d65-f831-4efc-85fa-a8fb7e415f72'
-  label: 'Back to press grid'
+  id: 'block_content:27877ab7-f891-41d9-8100-972cfd43046e'
+  label: 'Back to press cuttings'
   label_display: '0'
   provider: block_content
   status: true

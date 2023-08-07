@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: phoenix-and-alison
-label: 'Phoenix and Alison'
+label: Archivist
 description: ''
 locked: false

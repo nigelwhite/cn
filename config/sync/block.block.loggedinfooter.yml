@@ -1,0 +1,33 @@
+uuid: 7a81e59e-95a8-4af6-aa89-57ab74be4e99
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8d82203a-061b-47c3-b42a-556fc7d0a29b'
+  module:
+    - block_content
+    - user
+  theme:
+    - b5subtheme
+id: loggedinfooter
+theme: b5subtheme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:8d82203a-061b-47c3-b42a-556fc7d0a29b'
+settings:
+  id: 'block_content:8d82203a-061b-47c3-b42a-556fc7d0a29b'
+  label: 'Logged in footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated

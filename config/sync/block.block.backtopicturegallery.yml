@@ -1,23 +1,23 @@
-uuid: 8d13bab1-2b6c-4eaf-b6e5-cfec40df70c1
+uuid: b3f0ac00-bfc1-4946-9e9d-c5d3177f8c9a
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:b9859a97-d37c-4a49-a049-b709edae0b38'
+    - 'block_content:basic:e85ee3f0-2e56-40e5-a377-4e5a079c9ef3'
   module:
     - block_content
     - node
   theme:
     - b5subtheme
-id: backtocnpicgallery
+id: backtopicturegallery
 theme: b5subtheme
 region: breadcrumb
 weight: 0
 provider: null
-plugin: 'block_content:b9859a97-d37c-4a49-a049-b709edae0b38'
+plugin: 'block_content:e85ee3f0-2e56-40e5-a377-4e5a079c9ef3'
 settings:
-  id: 'block_content:b9859a97-d37c-4a49-a049-b709edae0b38'
-  label: 'Back to CN pic gallery'
+  id: 'block_content:e85ee3f0-2e56-40e5-a377-4e5a079c9ef3'
+  label: 'Back to picture gallery'
   label_display: '0'
   provider: block_content
   status: true

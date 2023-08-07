@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_document_template
     - node.type.page
   module:
     - ds
+    - file
     - text
     - user
 third_party_settings:
@@ -19,14 +21,7 @@ third_party_settings:
       settings:
         classes:
           layout_class: {  }
-          header:
-            cn-head-ds-region: cn-head-ds-region
-          left:
-            cn-left-ds-region: cn-left-ds-region
-          right:
-            cn-right-ds-region: cn-right-ds-region
-          footer:
-            cn-footer-ds-region: cn-footer-ds-region
+          ds_content: {  }
         wrappers:
           ds_content: div
         outer_wrapper: div
@@ -36,9 +31,8 @@ third_party_settings:
         label: ''
     regions:
       ds_content:
-        - field_media_image
         - body
-        - field_download
+        - field_document_template
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default
@@ -52,6 +46,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: ds_content
+  field_document_template:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 2
     region: ds_content
 hidden:
   entity_print_view_epub: true

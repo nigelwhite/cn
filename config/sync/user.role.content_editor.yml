@@ -5,6 +5,7 @@ dependencies:
   config:
     - filter.format.full_html
     - node.type.basic_page_2_col
+    - node.type.cuckoos_picture_gallery
     - node.type.page
   module:
     - filter
@@ -15,6 +16,9 @@ weight: 8
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'create cuckoos_picture_gallery content'
+  - 'delete own cuckoos_picture_gallery content'
   - 'edit any basic_page_2_col content'
   - 'edit any page content'
+  - 'edit own cuckoos_picture_gallery content'
   - 'use text format full_html'

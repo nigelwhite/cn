@@ -1,0 +1,27 @@
+uuid: 41d77eaa-bd3b-4ff0-9cad-9752b3c52142
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_template
+    - node.type.page
+  module:
+    - file
+id: node.page.field_document_template
+field_name: field_document_template
+entity_type: node
+bundle: page
+label: 'Document template'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+field_type: file

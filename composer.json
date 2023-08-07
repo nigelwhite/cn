@@ -37,6 +37,7 @@
         "drupal/exif_orientation": "^1.1",
         "drupal/field_formatter_class": "^1.6",
         "drupal/field_group": "^3.4",
+        "drupal/file_download_link": "^2.0",
         "drupal/fpa": "^4.0",
         "drupal/gin": "^3.0@beta",
         "drupal/gin_toolbar": "^1.0@beta",

@@ -12213,6 +12213,10 @@ ul .pagination {
   border-color: #ced4da;
 }
 
+.node--type-page .field--name-body {
+  text-align: center;
+}
+
 .cn-homepage .region-content {
   margin-top: 0;
 }

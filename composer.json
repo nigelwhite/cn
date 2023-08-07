@@ -47,6 +47,7 @@
         "drupal/publishcontent": "^1.6",
         "drupal/realname": "^2.0@beta",
         "drupal/recaptcha_v3": "^1.6",
+        "drupal/redirect_after_login": "^2.7",
         "drupal/smart_date": "^3.6",
         "drupal/stage_file_proxy": "^2.1",
         "drupal/super_login": "^2.0",

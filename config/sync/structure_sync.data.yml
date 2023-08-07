@@ -1,0 +1,248 @@
+blocks:
+  -
+    info: 'Custom footer'
+    langcode: en
+    uuid: 0f5dd0ef-da54-4522-bc26-041fed76a36e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<div class="cn-footer"><div class="cn-footer-links"><div><a href="https://www.facebook.com/thecuckoosnestmarsden/" target="_blank">Facebook</a></div><div><a href="/contact-us">Contact</a></div><div><a href="/privacy-policy">Privacy Policy</a></div></div><div class="cn-footer-info"><div>Registered Charity No 1090934</div><div>Copyright © Cuckoo''s Nest 2022</div></div></div>'
+          summary: ''
+          format: admin_html
+  -
+    info: 'Registration help'
+    langcode: en
+    uuid: 30a7e45d-c10f-4fc0-8286-a95876d43e51
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p class=\"field--name-title\">Create a new account</p>\r\n\r\n<p>We ask you to create an account on this web site so we can verify that you are a real person with a real email address. Sadly this is necessary to stop spammers.</p>\r\n\r\n<p>You will be sent an email asking you to click on a one-time link. This will allow you to set a password for your account.</p>\r\n\r\n<p>If you have forgotten your password don't create a new account. It won't work as your email is already registered. Instead <a href=\"/user/password\">reset your password</a>.</p>\r\n\r\n<p>Please see our <a href=\"/privacy-policy\">Privacy Policy</a> for how we use your data.</p>\r\n"
+          summary: ''
+          format: full_html
+  -
+    info: 'Logged in footer'
+    langcode: en
+    uuid: 8d82203a-061b-47c3-b42a-556fc7d0a29b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p class="m-auto" style="width:5rem;"><a href="/dashboard">Dashboard</a></p><p class="m-auto" style="width:5rem;"><a href="/user/logout">Log out</a></p>'
+          summary: ''
+          format: admin_html
+  -
+    info: 'Back to press cuttings'
+    langcode: en
+    uuid: 27877ab7-f891-41d9-8100-972cfd43046e
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p><a href="/press-cuttings">&lt; back</a></p>'
+          summary: ''
+          format: full_html
+  -
+    info: 'Back to picture gallery'
+    langcode: en
+    uuid: e85ee3f0-2e56-40e5-a377-4e5a079c9ef3
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>&lt; back</p>'
+          summary: ''
+          format: full_html
+menus:
+  -
+    menu_name: main
+    title: Donate
+    parent: null
+    uri: 'internal:/node/20'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: dc7288ad-3055-41bf-836c-d208ab66d0fe
+  -
+    menu_name: main
+    title: Volunteer
+    parent: null
+    uri: 'internal:/node/19'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 6695e217-3182-4b88-8fe5-3aaffd2bfce9
+  -
+    menu_name: main
+    title: Grants
+    parent: null
+    uri: 'internal:/node/21'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -45
+    langcode: en
+    uuid: b8cef5b5-acde-4ff4-9af5-942bab00ae0a
+  -
+    menu_name: main
+    title: About
+    parent: null
+    uri: 'internal:/node/22'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: f64f0ecf-059a-4c0c-8225-32e508b17228
+  -
+    menu_name: account
+    title: 'Add content'
+    parent: null
+    uri: 'internal:/node/add'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 11819914-618c-4095-9135-778dadc2e40d
+  -
+    menu_name: phoenix-and-alison
+    title: 'Arrange History pages'
+    parent: null
+    uri: 'internal:/admin/structure/book/25'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: 6d611194-b84a-4070-912f-fc7ba65e66d8
+  -
+    menu_name: phoenix-and-alison
+    title: 'History pages (add as Child Pages)'
+    parent: null
+    uri: 'internal:/node/25'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: e3957dc5-60c8-4149-82b6-6004a88bffcb
+  -
+    menu_name: phoenix-and-alison
+    title: 'Press Cuttings'
+    parent: null
+    uri: 'internal:/press-cuttings'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 3b01b1d1-e082-4d75-870a-0eb0588f313e
+  -
+    menu_name: editor
+    title: 'Add picture to Gallery'
+    parent: null
+    uri: 'internal:/node/add/cuckoos_picture_gallery'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -47
+    langcode: en
+    uuid: 505c1a50-fb51-4e6f-88ac-ba4489f3162d
+  -
+    menu_name: editor
+    title: 'List content'
+    parent: null
+    uri: 'internal:/admin/content'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -49
+    langcode: en
+    uuid: 00af21bd-75ac-4f17-8470-ad1ec060ab2e
+  -
+    menu_name: editor
+    title: 'Document templates'
+    parent: null
+    uri: 'internal:/node/54'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -46
+    langcode: en
+    uuid: 205aad2b-834d-4012-abc5-7dc92eb4bdbf
+  -
+    menu_name: editor
+    title: 'Picture gallery'
+    parent: null
+    uri: 'internal:/picture-gallery'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -48
+    langcode: en
+    uuid: e1468805-d9ab-49d1-bd88-00ee88503120
+  -
+    menu_name: phoenix-and-alison
+    title: 'Add content'
+    parent: null
+    uri: 'internal:/node/add'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: b51a0eec-ec0f-4cfc-b450-2299994e2e30
+  -
+    menu_name: editor
+    title: 'Add content'
+    parent: null
+    uri: 'internal:/node/add'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: -50
+    langcode: en
+    uuid: c1a49ccd-53b7-4745-bdf2-963b3671e784
+taxonomies:
+  gallery:
+    -
+      vid: gallery
+      tid: '16'
+      langcode: en
+      name: 'Press Cuttings'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c3ef92ae-924a-47fe-a526-7ba32b91bc6d
+  tags: {  }

@@ -12201,6 +12201,13 @@ ul .pagination {
   color: black;
 }
 
+#block-welcomeloggedinuser {
+  margin-top: 4rem;
+  background-color: aquamarine;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
 .cn-homepage .region-content {
   margin-top: 0;
 }

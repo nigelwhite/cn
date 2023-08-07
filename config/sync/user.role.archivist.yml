@@ -3,11 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.full_html
     - media.type.vector_image
     - node.type.book
     - node.type.cuckoos_picture_gallery
     - node.type.gallery_image
   module:
+    - filter
     - media
     - node
     - publishcontent
@@ -37,5 +39,6 @@ permissions:
   - 'revert gallery_image revisions'
   - 'unpublish own node type book'
   - 'unpublish own node type gallery_image'
+  - 'use text format full_html'
   - 'view book revisions'
   - 'view gallery_image revisions'

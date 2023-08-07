@@ -8,6 +8,7 @@ dependencies:
   module:
     - editor
     - media
+    - token_filter
 _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
@@ -81,3 +82,10 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: true
+    weight: 0
+    settings:
+      replace_empty: '1'

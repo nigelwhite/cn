@@ -16,6 +16,7 @@ Bootstrap breakpoints https://getbootstrap.com/docs/5.0/layout/breakpoints/
     terminal 2: in root of project
         ddev browsersync
         open the external link. You won't be logged in - handy for dev tools and responsive states
+        don't try to log in here or you get an error
     terminal 3
         cd to theme folder
         npx mix watch

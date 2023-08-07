@@ -12201,11 +12201,16 @@ ul .pagination {
   color: black;
 }
 
-#block-welcomeloggedinuser {
+#block-welcomeloggedinuser,
+#block-loggedinfooter {
   margin-top: 4rem;
   background-color: aquamarine;
   padding: 2rem;
   border-radius: 20px;
+}
+
+#user-login-form .form-control:focus {
+  border-color: #ced4da;
 }
 
 .cn-homepage .region-content {
@@ -12266,6 +12271,7 @@ ul .pagination {
 }
 .cn-grid-item img {
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 .grow {

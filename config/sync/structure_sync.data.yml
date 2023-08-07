@@ -64,6 +64,19 @@ blocks:
           value: '<p>&lt; back</p>'
           summary: ''
           format: full_html
+  -
+    info: 'Welcome logged in user'
+    langcode: en
+    uuid: 9082866a-4fc1-41be-b53f-055177919aea
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: '<p>Welcome [user:name]</p><p>While you are logged in you will see a Dashboard link at the bottom of every page</p>'
+          summary: ''
+          format: full_html
 menus:
   -
     menu_name: main

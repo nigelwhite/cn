@@ -58,7 +58,6 @@ module:
   path_alias: 0
   publishcontent: 0
   recaptcha_v3: 0
-  redirect_after_login: 0
   responsive_image: 0
   search: 0
   shortcut: 0
@@ -71,6 +70,7 @@ module:
   taxonomy: 0
   text: 0
   token: 0
+  token_filter: 0
   toolbar: 0
   tour: 0
   twig_tweak: 0

@@ -8,7 +8,8 @@ dependencies:
     - node.type.page
   module:
     - ds
-    - file
+    - field_formatter_class
+    - file_download_link
     - text
     - user
 third_party_settings:
@@ -48,11 +49,19 @@ content:
     weight: 1
     region: ds_content
   field_document_template:
-    type: file_default
+    type: file_download_link
     label: above
     settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
+      link_text: '[file:name]. This version: [file:created:custom:j M Y] ([file:size])'
+      link_title: ''
+      new_tab: true
+      force_download: true
+      custom_classes: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: ''
     weight: 2
     region: ds_content
 hidden:

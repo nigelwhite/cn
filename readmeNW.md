@@ -7,7 +7,7 @@ node content max width 1280px
 
 ddev import-db --file=~/Downloads/nwhite.sql
 ddev composer require drupal/core-recommended:xxx --with-all-dependencies
-ddev composer update "drupal/\*" --with-all-dependencies
+ddev composer update drupal/\* --with-all-dependencies [watch out: md is inserting an extra \]
 
 theme docs are in web/themes/custom/b5subtheme/readmeNW.md
 

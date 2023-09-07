@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page_2_col.body
+    - field.field.node.basic_page_2_col.field_document_template
     - field.field.node.basic_page_2_col.field_media_image
     - node.type.basic_page_2_col
   module:
     - ds
     - field_formatter_class
+    - file_download_link
     - text
     - user
 third_party_settings:
@@ -54,11 +56,11 @@ third_party_settings:
             add_region_classes: 1
             attributes: ''
     regions:
-      right:
-        - field_modal_content
-        - body
       left:
         - field_media_image
+      right:
+        - body
+        - field_document_template
 id: node.basic_page_2_col.default
 targetEntityType: node
 bundle: basic_page_2_col
@@ -70,6 +72,22 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: right
+  field_document_template:
+    type: file_download_link
+    label: above
+    settings:
+      link_text: '[node:field_document_template:description]. This version: [file:created:custom:j M Y] ([file:size])'
+      link_title: ''
+      new_tab: true
+      force_download: true
+      custom_classes: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ds_limit: ''
+    weight: 2
     region: right
   field_media_image:
     type: entity_reference_entity_view

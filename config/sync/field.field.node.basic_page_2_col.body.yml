@@ -6,14 +6,18 @@ dependencies:
     - field.storage.node.body
     - node.type.basic_page_2_col
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats: {  }
 id: node.basic_page_2_col.body
 field_name: body
 entity_type: node
 bundle: basic_page_2_col
 label: Body
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''

@@ -1,7 +1,7 @@
 uuid: d4008633-af4e-4cc4-b7f7-02f18b56bcfe
 langcode: en
-status: true
+status: false
 dependencies: {  }
 formId: node_webform_form
-captchaType: recaptcha_v3/captcha_action_1
+captchaType: captcha/Math
 label: webform-submission-photo-for-printed-cards-node-9-add-form

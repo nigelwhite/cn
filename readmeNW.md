@@ -1,3 +1,8 @@
+brew upgrade ddev/ddev/ddev
+structure_sync is installed so
+
+- ea cex commit
+
 node content max width 1280px
 
 ddev import-db --file=~/Downloads/nwhite.sql

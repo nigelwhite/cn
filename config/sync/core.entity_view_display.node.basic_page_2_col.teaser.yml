@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.basic_page_2_col.body
+    - field.field.node.basic_page_2_col.field_document_template
     - field.field.node.basic_page_2_col.field_media_image
     - node.type.basic_page_2_col
   module:
@@ -32,4 +33,5 @@ hidden:
   entity_print_view_epub: true
   entity_print_view_pdf: true
   entity_print_view_word_docx: true
+  field_document_template: true
   field_media_image: true

@@ -147,7 +147,7 @@ menus:
     description: null
     enabled: true
     expanded: false
-    weight: -48
+    weight: -46
     langcode: en
     uuid: 6d611194-b84a-4070-912f-fc7ba65e66d8
   -
@@ -159,7 +159,7 @@ menus:
     description: null
     enabled: true
     expanded: false
-    weight: -49
+    weight: -47
     langcode: en
     uuid: e3957dc5-60c8-4149-82b6-6004a88bffcb
   -
@@ -171,7 +171,7 @@ menus:
     description: null
     enabled: true
     expanded: false
-    weight: -47
+    weight: -48
     langcode: en
     uuid: 3b01b1d1-e082-4d75-870a-0eb0588f313e
   -
@@ -188,19 +188,7 @@ menus:
     uuid: 505c1a50-fb51-4e6f-88ac-ba4489f3162d
   -
     menu_name: editor
-    title: 'List content'
-    parent: null
-    uri: 'internal:/admin/content'
-    link_title: ''
-    description: null
-    enabled: true
-    expanded: false
-    weight: -49
-    langcode: en
-    uuid: 00af21bd-75ac-4f17-8470-ad1ec060ab2e
-  -
-    menu_name: editor
-    title: 'Document templates'
+    title: 'Documents for staff use'
     parent: null
     uri: 'internal:/node/54'
     link_title: ''
@@ -217,7 +205,7 @@ menus:
     uri: 'internal:/picture-gallery'
     link_title: ''
     description: null
-    enabled: true
+    enabled: false
     expanded: false
     weight: -48
     langcode: en
@@ -231,21 +219,21 @@ menus:
     description: null
     enabled: true
     expanded: false
-    weight: -50
+    weight: -49
     langcode: en
     uuid: b51a0eec-ec0f-4cfc-b450-2299994e2e30
   -
-    menu_name: editor
-    title: 'Add content'
+    menu_name: phoenix-and-alison
+    title: 'View content'
     parent: null
-    uri: 'internal:/node/add'
+    uri: 'internal:/admin/content'
     link_title: ''
     description: null
     enabled: true
     expanded: false
     weight: -50
     langcode: en
-    uuid: c1a49ccd-53b7-4745-bdf2-963b3671e784
+    uuid: 2fcf1189-dc15-4c7c-aef3-61afa54f42fd
 taxonomies:
   gallery:
     -

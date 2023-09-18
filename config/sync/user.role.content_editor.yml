@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - filter.format.full_html
+    - media.type.image
     - node.type.basic_page_2_col
     - node.type.cuckoos_picture_gallery
     - node.type.page
   module:
     - filter
+    - media
     - node
 id: content_editor
 label: 'Content editor'
@@ -17,8 +19,11 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'create cuckoos_picture_gallery content'
+  - 'create image media'
   - 'delete own cuckoos_picture_gallery content'
+  - 'delete own image media'
   - 'edit any basic_page_2_col content'
   - 'edit any page content'
   - 'edit own cuckoos_picture_gallery content'
+  - 'edit own image media'
   - 'use text format full_html'

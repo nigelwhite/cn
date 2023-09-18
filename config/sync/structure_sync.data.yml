@@ -152,7 +152,7 @@ menus:
     uuid: 6d611194-b84a-4070-912f-fc7ba65e66d8
   -
     menu_name: phoenix-and-alison
-    title: 'History pages (add as Child Pages)'
+    title: 'History display (and add as Child Pages)'
     parent: null
     uri: 'internal:/node/25'
     link_title: ''
@@ -164,7 +164,7 @@ menus:
     uuid: e3957dc5-60c8-4149-82b6-6004a88bffcb
   -
     menu_name: phoenix-and-alison
-    title: 'Press Cuttings'
+    title: 'Press Cuttings display'
     parent: null
     uri: 'internal:/press-cuttings'
     link_title: ''
@@ -212,7 +212,7 @@ menus:
     uuid: e1468805-d9ab-49d1-bd88-00ee88503120
   -
     menu_name: phoenix-and-alison
-    title: 'Add content'
+    title: 'Add content (any kind)'
     parent: null
     uri: 'internal:/node/add'
     link_title: ''
@@ -224,7 +224,7 @@ menus:
     uuid: b51a0eec-ec0f-4cfc-b450-2299994e2e30
   -
     menu_name: phoenix-and-alison
-    title: 'View content'
+    title: 'List content'
     parent: null
     uri: 'internal:/admin/content'
     link_title: ''
@@ -234,6 +234,18 @@ menus:
     weight: -50
     langcode: en
     uuid: 2fcf1189-dc15-4c7c-aef3-61afa54f42fd
+  -
+    menu_name: main
+    title: Gallery
+    parent: null
+    uri: 'internal:/gallery'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 38dcc5d3-3c60-45e0-94d3-5fd5b81d4193
 taxonomies:
   gallery:
     -

@@ -3,8 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.basic_page_main_image
     - core.entity_view_mode.media.full
     - core.entity_view_mode.media.media_library
+    - core.entity_view_mode.media.medium_image
   module:
     - editor
     - media
@@ -50,8 +52,10 @@ filters:
     settings:
       default_view_mode: media_library
       allowed_view_modes:
+        basic_page_main_image: basic_page_main_image
         full: full
         media_library: media_library
+        medium_image: medium_image
       allowed_media_types:
         document: document
         image: image

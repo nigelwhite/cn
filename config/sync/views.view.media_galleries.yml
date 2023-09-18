@@ -9,13 +9,13 @@ dependencies:
     - media_gallery
     - user
 _core:
-  default_config_hash: Y1VFQi9gCX16abMKI_h6Z1XLBq3wxNNDax-HxSB-Fek
+  default_config_hash: dBdvCLocWUATKbJY2jg5FqTmYv1Md2JaoplPx5O6vW0
 id: media_galleries
 label: 'All Galleries'
 module: views
 description: ''
 tag: ''
-base_table: media_gallery
+base_table: media_gallery_field_data
 base_field: id
 display:
   default:
@@ -94,7 +94,7 @@ display:
           field_api_classes: false
         title:
           id: title
-          table: media_gallery
+          table: media_gallery_field_data
           field: title
           relationship: none
           group_type: group
@@ -161,7 +161,7 @@ display:
         type: full
         options:
           offset: 0
-          items_per_page: 9
+          items_per_page: 15
           total_pages: null
           id: 0
           tags:

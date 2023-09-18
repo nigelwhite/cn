@@ -533,7 +533,22 @@ display:
           field_api_classes: false
       defaults:
         fields: false
+        header: false
       display_description: ''
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: false
+          content:
+            value: "<p><a href=\"/gallery\">< back</a></p>\r\n<h2 class=\"cn-gallery-title\">[view:title]</h2>"
+            format: full_html
+          tokenize: false
       display_extenders: {  }
       path: press-cuttings
     cache_metadata:

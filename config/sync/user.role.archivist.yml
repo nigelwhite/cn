@@ -7,7 +7,6 @@ dependencies:
     - media.type.image
     - media.type.vector_image
     - node.type.book
-    - node.type.cuckoos_picture_gallery
     - node.type.gallery_image
   module:
     - book
@@ -24,7 +23,6 @@ permissions:
   - 'add content to books'
   - 'administer book outlines'
   - 'create book content'
-  - 'create cuckoos_picture_gallery content'
   - 'create gallery_image content'
   - 'create image media'
   - 'create vector_image media'
@@ -32,12 +30,10 @@ permissions:
   - 'delete any gallery_image content'
   - 'delete book revisions'
   - 'delete gallery_image revisions'
-  - 'delete own cuckoos_picture_gallery content'
   - 'delete own image media'
   - 'delete own vector_image media'
   - 'edit any book content'
   - 'edit any gallery_image content'
-  - 'edit own cuckoos_picture_gallery content'
   - 'edit own image media'
   - 'edit own vector_image media'
   - 'publish own node type book'

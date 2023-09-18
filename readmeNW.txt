@@ -9,6 +9,13 @@ ddev import-db --file=~/Downloads/nwhite.sql
 ddev composer require drupal/core-recommended:xxx --with-all-dependencies
 ddev composer update drupal/* --with-all-dependencies [watch out: md would insert an extra \]
 
+CEX / CIM
+Should be safe to cex in local and cim in remote for recaptcha_v3.settings because
+- set up like http://oyster-d9.ddev.site:86/node/1525 ie
+- config split in /sync and git ignore should prevent secret keys getting into repo
+- config ignore should prevent remote setting being overwritten
+
+
 theme docs are in web/themes/custom/b5subtheme/readmeNW.md
 
 Bootstrap breakpoints https://getbootstrap.com/docs/5.0/layout/breakpoints/

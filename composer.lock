@@ -1643,26 +1643,26 @@
         },
         {
             "name": "drupal/bootstrap5",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap5.git",
-                "reference": "2.0.9"
+                "reference": "2.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap5-2.0.9.zip",
-                "reference": "2.0.9",
-                "shasum": "b300c0d08e23b96e2b4f841b3611ad89cb183d06"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap5-2.0.10.zip",
+                "reference": "2.0.10",
+                "shasum": "7635b21e0cf5d0e360bf7c3ae7c90eaf23776b5c"
             },
             "require": {
-                "drupal/core": "^9.2"
+                "drupal/core": "^9.4"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "2.0.9",
-                    "datestamp": "1675691822",
+                    "version": "2.0.10",
+                    "datestamp": "1694954649",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2880,17 +2880,17 @@
         },
         {
             "name": "drupal/exif_orientation",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/exif_orientation.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/exif_orientation-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "264e2f8ac79e9132d05dc1abd9b519f44ae1012d"
+                "url": "https://ftp.drupal.org/files/projects/exif_orientation-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "692d04b1ce662a204b335135a1dadaca9b6efc7b"
             },
             "require": {
                 "drupal/core": "^9.2 || ^10"
@@ -2898,8 +2898,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1692638784",
+                    "version": "8.x-1.4",
+                    "datestamp": "1694623445",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3280,17 +3280,17 @@
         },
         {
             "name": "drupal/mail_login",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/mail_login.git",
-                "reference": "8.x-2.7"
+                "reference": "8.x-2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mail_login-8.x-2.7.zip",
-                "reference": "8.x-2.7",
-                "shasum": "2a56e1c0dd10d42afaa117a290b0de1c837563cb"
+                "url": "https://ftp.drupal.org/files/projects/mail_login-8.x-2.8.zip",
+                "reference": "8.x-2.8",
+                "shasum": "0795b0a70b0a92cf62218ad4c777485260fefc92"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10"
@@ -3298,8 +3298,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.7",
-                    "datestamp": "1676507580",
+                    "version": "8.x-2.8",
+                    "datestamp": "1694625212",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

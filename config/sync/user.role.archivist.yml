@@ -10,8 +10,10 @@ dependencies:
     - node.type.gallery_image
   module:
     - book
+    - file
     - filter
     - media
+    - media_gallery
     - node
     - publishcontent
 id: archivist
@@ -20,7 +22,9 @@ weight: 9
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access media gallery overview'
   - 'add content to books'
+  - 'add media gallery entities'
   - 'administer book outlines'
   - 'create book content'
   - 'create gallery_image content'
@@ -30,10 +34,13 @@ permissions:
   - 'delete any gallery_image content'
   - 'delete book revisions'
   - 'delete gallery_image revisions'
+  - 'delete own files'
   - 'delete own image media'
+  - 'delete own media gallery entities'
   - 'delete own vector_image media'
   - 'edit any book content'
   - 'edit any gallery_image content'
+  - 'edit any media gallery entities'
   - 'edit own image media'
   - 'edit own vector_image media'
   - 'publish own node type book'

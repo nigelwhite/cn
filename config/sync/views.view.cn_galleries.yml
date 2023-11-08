@@ -568,7 +568,7 @@ display:
     display_plugin: page
     position: 1
     display_options:
-      title: 'Picture Gallery'
+      title: 'Picture Blog'
       fields:
         field_media_image:
           id: field_media_image

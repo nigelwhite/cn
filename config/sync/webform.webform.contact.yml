@@ -29,11 +29,12 @@ archive: false
 id: contact
 title: 'Email us'
 description: 'Basic email contact webform.'
-category: ''
+categories: {  }
 elements: |-
   recipient:
     '#type': select
     '#title': Recipient
+    '#prepopulate': true
     '#options':
       Grants: Grants
       'General enquiries': 'General enquiries'

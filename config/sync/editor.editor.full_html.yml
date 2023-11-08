@@ -18,6 +18,8 @@ settings:
       - indent
       - outdent
       - '|'
+      - sourceEditing
+      - '|'
       - link
       - drupalMedia
   plugins:
@@ -30,6 +32,8 @@ settings:
     ckeditor5_list:
       reversed: false
       startIndex: false
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
     media_media:
       allow_view_mode_override: true
 image_upload:

@@ -26,7 +26,7 @@ archive: false
 id: photo_for_printed_cards
 title: 'Photo for printed cards'
 description: 'Users can submit a photo for printing'
-category: ''
+categories: {  }
 elements: |-
   information:
     '#title': 'Your Information'
@@ -164,6 +164,8 @@ settings:
   wizard_toggle: true
   wizard_toggle_show_label: ''
   wizard_toggle_hide_label: ''
+  wizard_page_type: container
+  wizard_page_title_tag: h2
   preview: 0
   preview_label: ''
   preview_title: ''

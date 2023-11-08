@@ -9,6 +9,7 @@ dependencies:
     - node.type.cuckoos_picture_gallery
     - node.type.page
   module:
+    - file
     - filter
     - media
     - node
@@ -21,6 +22,7 @@ permissions:
   - 'create cuckoos_picture_gallery content'
   - 'create image media'
   - 'delete own cuckoos_picture_gallery content'
+  - 'delete own files'
   - 'delete own image media'
   - 'edit any basic_page_2_col content'
   - 'edit any page content'

@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: bafc7d70-c305-4e1b-bc19-570573e462a4
-name: 'The Cuckoo''s Nest'
+name: "The Cuckoo's Nest"
 mail: admin@cuckoosnestmarsden.org.uk
 slogan: 'Community owned charity shop in Marsden'
 page:

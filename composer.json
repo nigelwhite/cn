@@ -20,7 +20,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/allowed_formats": "^2.0",
         "drupal/auto_username": "^1.2",
-        "drupal/bootstrap5": "^2.0",
+        "drupal/bootstrap5": "^3.0",
         "drupal/bootstrap_layouts": "^5.2",
         "drupal/captcha": "^1.8",
         "drupal/coffee": "^1.2",

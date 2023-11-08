@@ -32,3 +32,7 @@ Bootstrap breakpoints https://getbootstrap.com/docs/5.0/layout/breakpoints/
     terminal 3
         cd to theme folder
         npx mix watch
+
+chmod 755 web/sites/default
+chmod 644 web/sites/default/*settings.php
+chmod 644 web/sites/default/*services.yml

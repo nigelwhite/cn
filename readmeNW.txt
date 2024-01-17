@@ -9,6 +9,9 @@ ddev import-db --file=~/Downloads/nwhite.sql
 ddev composer require drupal/core-recommended:xxx --with-all-dependencies
 ddev composer update drupal/* --with-all-dependencies [watch out: md would insert an extra \]
 
+Looking at the latest release notes they had a recommended script
+ddev composer require drupal/core-recommended:10.2.1 drupal/core-composer-scaffold:10.2.1 drupal/core-project-message:10.2.1 --update-with-all-dependencies
+
 CEX / CIM
 Should be safe to cex in local and cim in remote for recaptcha_v3.settings because
 - set up like http://oyster-d9.ddev.site:86/node/1525 ie

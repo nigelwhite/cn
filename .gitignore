@@ -46,3 +46,5 @@ web/themes/custom/b5subtheme/mix-manifest.json
 # hide secrets
 config/sync/recaptcha_v3.settings.yml
 config/split_to_ignore
+
+readmeNW.txt

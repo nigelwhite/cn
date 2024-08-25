@@ -7,7 +7,7 @@ node content max width 1280px
 
 ddev import-db --file=~/Downloads/nwhite.sql
 ddev composer require drupal/core-recommended:xxx --with-all-dependencies
-ddev composer update drupal/* --with-all-dependencies [watch out: md would insert an extra \]
+ddev composer update drupal/* --with-all-dependencies
 
 Looking at the latest release notes they had a recommended script
 ddev composer require drupal/core-recommended:10.2.1 drupal/core-composer-scaffold:10.2.1 drupal/core-project-message:10.2.1 --update-with-all-dependencies

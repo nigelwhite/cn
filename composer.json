@@ -53,6 +53,7 @@
         "drupal/structure_sync": "^2.0",
         "drupal/super_login": "^2.0",
         "drupal/svg_image_field": "^2.1",
+        "drupal/symfony_mailer": "^1.4",
         "drupal/token": "^1.11",
         "drupal/token_filter": "^2.0",
         "drupal/twig_tweak": "^3.1",

@@ -10,7 +10,7 @@ in VS Code
 - Live Server: open with live server
 - click Watch SASS item in bottom right tool tray
 
-Setup to get live server and watch sass working - https://nwhite.uk/oyster/web/node/1453
+Setup to get live server and watch sass working - readmeNW.txt
 
 No node modules required as we're using VS Code extensions
 

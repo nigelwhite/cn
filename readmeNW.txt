@@ -24,17 +24,30 @@ theme docs are in web/themes/custom/b5subtheme/readmeNW.md
 Bootstrap breakpoints https://getbootstrap.com/docs/5.0/layout/breakpoints/
 @include media-breakpoint-up(lg) { ... }
 
+Browsersync
+install:
+    ddev add-on get ddev/ddev-browsersync // maybe have to do it again after upgrading ddev
+    ddev restart
+
     terminal 1: in root of project
         ddev start
         open the project in browser. OK to be logged in here and make config changes
         use terminal 1 for git, ddev composer and ddev drush
     terminal 2: in root of project
         ddev browsersync
-        open the external link. You won't be logged in - handy for dev tools and responsive states
+        https://cn.ddev.site:3000 You won't be logged in - handy for dev tools and responsive states
+        This is where you'll see 'Browsersync connected' messages when you make changes to scss
         don't try to log in here or you get an error
     terminal 3
-        cd to theme folder
+        cd web/themes/custom/b5subtheme
         npx mix watch
+
+Trouble shoot
+    cd ~
+    nvm install node // uses nvm to install latest version of node
+    nvm use <version> // maybe
+    cd into project folder
+    npm update
 
 chmod 755 web/sites/default
 chmod 644 web/sites/default/*settings.php

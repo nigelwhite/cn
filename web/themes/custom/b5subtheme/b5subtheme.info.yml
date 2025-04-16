@@ -6,8 +6,10 @@ core_version_requirement: "^8.9 || ^9 || ^10"
 libraries:
   - "b5subtheme/global-styling"
   - "b5subtheme/fonts"
-stylesheets-remove:
-  - "@bootstrap5/css/style.css"
+# stylesheets-remove:
+#   - "@bootstrap5/css/style.css"
+libraries-override:
+  bootstrap5/global-styling: false
 regions:
   header: Header
   nav_branding: "Navigation branding region"

@@ -55,3 +55,11 @@ Trouble shoot
 chmod 755 web/sites/default
 chmod 644 web/sites/default/*settings.php
 chmod 644 web/sites/default/*services.yml
+
+git push
+On remote ......
+git status
+git pull
+composer install
+vendor/bin/drush updb
+vendor/bin/drush cr

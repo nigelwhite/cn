@@ -63,3 +63,14 @@ git pull
 composer install
 vendor/bin/drush updb
 vendor/bin/drush cr
+
+14.11.25
+ddev composer require drupal/core-recommended:10.5.6 drupal/core-composer-scaffold:10.5.6 drupal/core-project-message:10.5.6 --update-with-all-dependencies
+
+- had to delete composer.lock
+- had to upgrade php to 8.2
+ddev composer require drush/drush: ^13
+ddev drush updb
+ddev drush cr
+commit
+
